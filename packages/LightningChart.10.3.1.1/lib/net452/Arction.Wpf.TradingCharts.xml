@@ -1,0 +1,3609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Arction.Wpf.TradingCharts</name>
+  </assembly>
+  <members>
+    <member name="T:Arction.CustomControls.Trader.WPF.Appearance">
+      <summary>
+            Appearance, color theme setting
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.Appearance.Dark">
+      <summary>
+            Dark theme 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.Appearance.White">
+      <summary>
+            White theme 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.Appearance.Turquoise">
+      <summary>
+            Turquoise theme
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.Appearance.AcidGreen">
+      <summary>
+            Acid green theme
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.Appearance.Red">
+      <summary>
+            Red theme
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.Appearance.DeepYellow">
+      <summary>
+            Deep yellow theme
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.Appearance.Blue">
+      <summary>
+            Blue theme 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.Appearance.Silver">
+      <summary>
+            Silver theme
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.Appearance.Emerald">
+      <summary>
+            Emerald green theme
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.Appearance.Purple">
+      <summary>
+            Purple theme
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.AppearanceSettings">
+      <summary>
+            The colors of TradingChart components and objects.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.AppearanceSettings.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WPF.AppearanceSettings</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.AreaFillColor">
+      <summary>
+            Default color for area fills
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.AxisColor">
+      <summary>
+            Default color for the axes
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.AxisLabelsColor">
+      <summary>
+            Color for the axis labels
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.AxisMajorTicksColor">
+      <summary>
+            Color for the axis major ticks
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.AxisMinorTicksColor">
+      <summary>
+            Color for the axis minor ticks
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.AxisTitleColor">
+      <summary>
+            Default color for the axis titles
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.BackgroundColor">
+      <summary>
+            The color of the chart's background (margin area)
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.BollingerBandFillColor">
+      <summary>
+            Bolling Band fill color
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.BollingerBandLineColor">
+      <summary>
+            Bollinger Band line color
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.CandleDownColor">
+      <summary>
+            Down-candle color
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.CandleUpColor">
+      <summary>
+            Up-candle color
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.ChartTitleColor">
+      <summary>
+            The color of the chart title
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.CursorHairCrossColor">
+      <summary>
+            The cross-hair color of the data cursor
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.CursorLabelsFillColor">
+      <summary>
+            Color for cursor labels' fill
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.CursorLabelsTextColor">
+      <summary>
+            Color for cursor labels' text
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.CursorTrackingPointColor">
+      <summary>
+            Cursor tracking point color
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.ForegroundColor">
+      <summary>
+            Foreground color (text, buttons etc.)
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.GraphBackgroundColor">
+      <summary>
+            The color of the graph area
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.GraphBorderColor">
+      <summary>
+            The color of the border around the graph
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.GridLineColor">
+      <summary>
+            Grid line color
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.LineSeriesColor">
+      <summary>
+            Default line series color
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.MacdBaseLineColor">
+      <summary>
+            MACD base line color
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.MacdColor">
+      <summary>
+            MACD line color
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.MacdHistogramNegativeStrong">
+      <summary>
+            MACD histogram color when increasing below zero level 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.MacdHistogramNegativeWeak">
+      <summary>
+            MACD histogram color when decreasing below zero level 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.MacdHistogramPositiveStrong">
+      <summary>
+            MACD histogram color when increasing above zero level 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.MacdHistogramPositiveWeak">
+      <summary>
+            MACD histogram color when decreasing above zero level 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.MacdSignalColor">
+      <summary>
+            MACD signal line color
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.MovingAverageBlendColor">
+      <summary>
+            Moving Average color (blended)
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.MovingAverageColors">
+      <summary>
+            Default colors for Moving Averages
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.RsiColor">
+      <summary>
+            RSI color when between low and high thresholds
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.RsiHighColor">
+      <summary>
+            RSI color when above high threshold
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.RsiLowColor">
+      <summary>
+            RSI color when below low threshold
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.AppearanceSettings.VolumeIndicatorColor">
+      <summary>
+            Default color for Volume
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.BollingerBandFillType">
+      <summary>
+            Bollinger band fill type
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.BollingerBandFillType.None">
+      <summary>
+            No fill
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.BollingerBandFillType.Solid">
+      <summary>
+            Solid fill
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.ClearDrawingTools">
+      <summary>
+            Drawing tool clearing settings
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.ClearDrawingTools.NewDataAndTimeRange">
+      <summary>
+            Drawing Tools are automatically cleared when a new data set is loaded or when a new time range is selected. Zooming in/out does not trigger clearing.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.ClearDrawingTools.NewData">
+      <summary>
+            Drawing Tools are cleared only when a completely new data set is loaded from data provider or from a file.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.ClearDrawingTools.None">
+      <summary>
+            Drawing Tools are not automatically cleared.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.DataAggregationMode">
+      <summary>
+            Data aggregation mode (grouping mode)
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DataAggregationMode.None">
+      <summary>
+            No data aggregation, each data record given shown as own candle-stick / data point
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DataAggregationMode.Auto">
+      <summary>
+            Automatic aggregation by visible range, by day / week / month / year etc. 
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.DataAwareControl">
+      <summary>
+            Base class for trading chart
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataAwareControl.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataAwareControl.SetProvider(Arction.CustomControls.Trader.WPF.DataProvider,Arction.CustomControls.Trader.WPF.DataProviders.TradingDataProvider)">
+      <summary>
+            Changes the used data provider. Affects the search bar and methods such as OpenSymbol().
+            </summary>
+      <param name="dataProvider">If using custom data provider (DataProvider.UserDefined), set the provider here.</param>
+      <param name="customProvider">Custom data provider</param>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.DataFetchStatus">
+      <summary>
+            Data fetch status
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DataFetchStatus.OK">
+      <summary>
+            Data fetched successfully
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DataFetchStatus.ConnectionError">
+      <summary>
+            Error in connection to data provider
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DataFetchStatus.TooShortData">
+      <summary>
+            No data found
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DataFetchStatus.DataContainsErrorMessage">
+      <summary>
+            Some errors in fetched data
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DataFetchStatus.WebException">
+      <summary>
+            Problems when connecting to internet
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.DataParseStatus">
+      <summary>
+            Data parse status
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DataParseStatus.OK">
+      <summary>
+            Data parsed successfully
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DataParseStatus.TooShortData">
+      <summary>
+            Response contains no data 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DataParseStatus.DataContainsErrorMessage">
+      <summary>
+            Some errors in pased data
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.DataProvider">
+      <summary>
+            Trading data provider to be used
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DataProvider.MarketStack">
+      <summary>
+            Use pre-defined MarketStack service to fetch trading data. If a customer-specific API key should be used, use SetRestApiKey -method to set the key.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DataProvider.WorldTradingData">
+      <summary>
+            Use pre-defined WorldTradingData.com service to fetch trading data. If a customer-specific API key should be used, use SetRestApiKey -method to set the key. NOTE: WorldTradingData service is currently offline / not working properly.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DataProvider.AlphaVantage">
+      <summary>
+            Use pre-defined AlphaVantage.co service to fetch trading data. If a customer-specific API key should be used, use SetRestApiKey -method to set the key.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DataProvider.UserDefined">
+      <summary>
+            Requests trading data from user-defined provider. Prevents automatic calls to pre-defined data providers.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.DataRequestType">
+      <summary>
+            Data format of the data set request.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DataRequestType.Json">
+      <summary>
+            Request data as json -string.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DataRequestType.Csv">
+      <summary>
+            Request data as csv formatted string.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.DateTimeRange">
+      <summary>
+            Date time range
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DateTimeRange.Begin">
+      <summary>
+            The first DateTime value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DateTimeRange.End">
+      <summary>
+            The last DateTime value
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.Definitions">
+      <summary>
+            Static variables used by many classes.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Definitions.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WPF.Definitions</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.Definitions.AppearanceSettings">
+      <summary>
+            Appearance settings currently in use
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.Definitions.DeepYellow">
+      <summary>
+            Default yellow color
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.Definitions.YAxisTitleDistanceToAxis">
+      <summary>
+            Y-axis title's distance to axis
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.DrawingToolsUpdateFlags">
+      <summary>
+            What Drawing Tool elements should be updated.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingToolsUpdateFlags.Appearance">
+      <summary>
+            Updates the appearance of the Drawing Tool.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingToolsUpdateFlags.Calculations">
+      <summary>
+            Updates the calculations based on the tool's Control points.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.IndicatorUpdateFlags">
+      <summary>
+            What Indicator elements should be updated.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.IndicatorUpdateFlags.Appearance">
+      <summary>
+            Updates the appearance of the Indicator.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.IndicatorUpdateFlags.Data">
+      <summary>
+            Updates the calculations based on data.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.IntradayInfo">
+      <summary>
+            Info about Security
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.IntradayInfo.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WPF.IntradayInfo</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.IntradayInfo.ExchangeName">
+      <summary>
+            The name of the Stock exchange
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.IntradayInfo.Name">
+      <summary>
+            The name of the Security
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.LinearRegressionChannelType">
+      <summary>
+            Linear regression channel type
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.LinearRegressionChannelType.StandardDeviations">
+      <summary>
+            A set number of standard deviations between the linear regression line and the channel lines. Use NumberOfStandardDeviations -property to set the standard deviation count.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.LinearRegressionChannelType.RaffChannel">
+      <summary>
+            Upper line and lower line distances are based on the most projecting top or bottom
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.LinearRegressionChannelType.Line">
+      <summary>
+            Draws only the linear regression line
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.OhlcData">
+      <summary>
+            Struct to contain trading data
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.OhlcData.Close">
+      <summary>
+            Close value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.OhlcData.DateTime">
+      <summary>
+            DateTime
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.OhlcData.GetField(Arction.CustomControls.Trader.WPF.OhlcField)">
+      <summary>
+            Gets the value of the given field.
+            </summary>
+      <param name="field">OHLC field</param>
+      <returns>Field value</returns>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.OhlcData.High">
+      <summary>
+            High value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.OhlcData.Low">
+      <summary>
+            Low value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.OhlcData.Open">
+      <summary>
+            Open value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.OhlcData.OpenInterest">
+      <summary>
+            OpenInterest value (optional)
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.OhlcData.Volume">
+      <summary>
+            Volume value (optional)
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.OhlcField">
+      <summary>
+            OHLC field selector
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.OhlcField.Open">
+      <summary>
+            Open value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.OhlcField.High">
+      <summary>
+            High value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.OhlcField.Low">
+      <summary>
+            Low value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.OhlcField.Close">
+      <summary>
+            Close value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.OhlcField.Volume">
+      <summary>
+            Volume value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.OhlcField.OpenInterest">
+      <summary>
+            Open interest value
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.PriceChartOhlcField">
+      <summary>
+            Price chart OHLC field selector. 
+            Note, Volume and OpenInterest are not applicable for price chart, as they are plotted as auxiliary charts by themselves. 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.PriceChartOhlcField.Open">
+      <summary>
+            Open value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.PriceChartOhlcField.High">
+      <summary>
+            High value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.PriceChartOhlcField.Low">
+      <summary>
+            Low value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.PriceChartOhlcField.Close">
+      <summary>
+            Close value
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.PriceChartType">
+      <summary>
+            Price chart type
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.PriceChartType.CandleSticks">
+      <summary>
+            Candle-sticks
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.PriceChartType.Bars">
+      <summary>
+            Price bars 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.PriceChartType.Line">
+      <summary>
+            Line
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.PriceChartType.Mountain">
+      <summary>
+            Mountain (area) 
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.SearchGridSelectionChangedEventArgs">
+      <summary>
+            Used when search bar's selected index/Symbol changes
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.SearchGridSelectionChangedEventArgs.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.SearchGridSelectionChangedEventArgs.Index">
+      <summary>
+            Index of selected search result 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.SearchGridSelectionChangedEventArgs.SelectedSearchResult">
+      <summary>
+            Selected search result 
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.SecurityInfo">
+      <summary>
+            Details about Security
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.SecurityInfo.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WPF.SecurityInfo</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.SecurityInfo.Currency">
+      <summary>
+            The currency used by the Security
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.SecurityInfo.ExchangeLong">
+      <summary>
+            Stock exchange's long name
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.SecurityInfo.ExchangeShort">
+      <summary>
+            Stock exchange's short name
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.SecurityInfo.Name">
+      <summary>
+            Security's name
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.SecurityInfo.Price">
+      <summary>
+            Current prive value
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.SecurityInfo.Region">
+      <summary>
+            Region of the Stock exchange
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.SecurityInfo.Symbol">
+      <summary>
+            Security Symbol (AAPL etc.)
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.SecurityInfo.TimeZone">
+      <summary>
+            Time zone of the Stock exchange
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.SecurityInfo.ToString">
+      <summary>
+            Returns basic information about the Security (Name, Symbol, Currency, Stock exchange).
+            </summary>
+      <returns>Info string about the Security</returns>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.SecurityInfo.Type">
+      <summary>
+            Type of the Security
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.SymbolSearch">
+      <summary>
+            Interaction logic for SymbolSearch.xaml
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.SymbolSearch.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.SymbolSearch.InitializeComponent">
+      <summary>
+            InitializeComponent
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.TradingChart">
+      <summary>
+            Interaction logic for DataAwareChart.xaml
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.AddData(Arction.CustomControls.Trader.WPF.OhlcData[],System.String,System.String)">
+      <summary>
+            Adds new data points to the chart. Does not remove or replace the existing data points.
+            </summary>
+      <param name="data">OHLC and volume data. If it contains gaps of non-trading days, chart removes them automatically</param>
+      <param name="currency">Currency</param>
+      <param name="title">Security title, like "Apple, Inc"</param>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.AggregationMode">
+      <summary>
+            Aggreation mode (data grouping mode)
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TradingChart.AggregationModeProperty">
+      <summary>
+            Identifies the AggregationMode dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.AutoClearDrawingTools">
+      <summary>
+            Gets or sets if all Drawing Tools should be automatically cleared and disposed when new trading data is loaded to the chart.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TradingChart.AutoClearDrawingToolsProperty">
+      <summary>
+            Identifies the AutoClearDrawingTools dependency property.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.BeginUpdate">
+      <summary>
+            Begin update. Disables control repaints when a property is changed. Handy when
+            updating status of many properties or setting data of various objects.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.ChartName">
+      <summary>
+            The name of the chart
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TradingChart.ChartNameProperty">
+      <summary>
+            Identifies the ChartName dependency property.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.ClearData(System.Boolean,System.Boolean)">
+      <summary>
+            Clears all trading data.
+            </summary>
+      <param name="clearIndicators">Remove and dispose also all Indicators.</param>
+      <param name="clearDrawingTools">Remove and dispose also all Drawing Tools</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.CopyToClipboard(Arction.Wpf.Charting.ClipboardImageFormat,System.Int32,System.Int32,System.Boolean)">
+      <summary>
+            Copy the chart to clipboard image. Custom size can be defined via width and height parameters.
+            </summary>
+      <param name="format">Clipboard image format.</param>
+      <param name="width">Width of required output</param>
+      <param name="height">Height of required output</param>
+      <param name="AllowScreenCoordinateChanges">
+            Allows screen coordinates of certain elements to be 
+            scaled by factor of defined size and original size to keep then in place in relation to other 
+            chart elements in vector exports.
+            If unsure, use value true. Should be set to false if annotation tables or such constructs are used. 
+            Affects only vector output (emf and svg). 
+            </param>
+      <returns>true if succeeded, false otherwise</returns>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.DataCursor">
+      <summary>
+            Data cursor object
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.DataPacking">
+      <summary>
+            OHLC data is automatically packed if data values are starting to overlap each other. Increases performance, but may decrease accuracy.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TradingChart.DataPackingProperty">
+      <summary>
+            Identifies the DataPacking dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.DataProvider">
+      <summary>
+            Controls which trading data provider should be used. 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TradingChart.DataProviderProperty">
+      <summary>
+            Identifies the DataProvider dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.DataRequestType">
+      <summary>
+            Set in which data string format (json, csv) the pre-defined provider returns data.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TradingChart.DataRequestTypeProperty">
+      <summary>
+            Identifies the DataRequestType dependency property.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.DateTimeToXValue(System.DateTime)">
+      <summary>
+            Converts given DateTime to actual X-axis value. Due to removal of non-trading days, the X-axis is not linear.
+            Therefore, it is not possible to convert values outside the visible time range. Returns minimum or maximum axis value if given time is outside the range.
+            </summary>
+      <param name="dateTime">DateTime to be converted.</param>
+      <returns>X-axis value</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.Dispose">
+      <summary>
+            Disposes the chart and all its indicators and drawing tools.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.DisposeAllDrawingTools">
+      <summary>
+            Removes and disposes all Drawing Tools in the chart.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.DisposeAllIndicators">
+      <summary>
+            Removes and disposes all Indicators in the chart.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.DrawingTools">
+      <summary>
+            Drawing tools collection. Add here. e.g. TrendLine drawing tool 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.EndUpdate">
+      <summary>
+            End update. Enables control repainting, and refreshes the control.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.GetAllRangeButtons">
+      <summary>
+            Gets list of all time range buttons
+            </summary>
+      <returns>List of buttons</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.GetInternalChart">
+      <summary>
+            Gets a LightningChart instance which this trading chart API is built on. 
+            Gives you direct control of the chart, and allows customizing it in further level.  
+            </summary>
+      <returns>LightningChart instance</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.GetOhlcData">
+      <summary>
+            Gets the current data set as an Ohlc-data array. Returns the whole loaded data set, not only the current visible time range.
+            </summary>
+      <returns>The loaded data set.</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.GetOhlcDataFromFile(System.String,System.Char)">
+      <summary>
+            Converts CSV formatted data into OHLC data.
+            Requires data to have the following columns: Date / Time, Open, High, Low, Close.
+            Can have two optional columns: Volume, OpenInterest.
+            </summary>
+      <param name="fileName">The path and the name of the file</param>
+      <param name="delimiter">Character used as to separate the entries. Comma by default.</param>
+      <returns>OHLC data array</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.GetTimeRange(System.DateTime@,System.DateTime@)">
+      <summary>
+            Gets the time range of the current data set.
+            </summary>
+      <param name="startTime">Time range begin</param>
+      <param name="endTime">time range end</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.GetXAxisMinMax(System.Double@,System.Double@)">
+      <summary>
+            Gets the actual minimum and maximum double values of the time range X-axis. To get the start/end dates, use GetTimeRange() -method.
+            </summary>
+      <param name="minimum">Minimum X-axis value</param>
+      <param name="maximum">Maximum X-axis value</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.GetYAxisMinMax(System.Double@,System.Double@)">
+      <summary>
+            Gets the minimum and maximum values of the price Y-axis.
+            </summary>
+      <param name="minimum">Minimum Y-axis value</param>
+      <param name="maximum">Maximum Y-axis value</param>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.Indicators">
+      <summary>
+            Indicators collection. Add here e.g. Simple Moving Average or Relative Strength Index technical indicators.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.InitializeComponent">
+      <summary>
+            InitializeComponent
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.LimitOhlcDataToStackSegment">
+      <summary>
+            The OHLC data series is clipped outside the main segment, and is not shown on segment indicators.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TradingChart.LimitOhlcDataToStackSegmentProperty">
+      <summary>
+            Identifies the LimitOhlcDataToStackSegment dependency property.
+            </summary>
+    </member>
+    <member name="E:Arction.CustomControls.Trader.WPF.TradingChart.OhlcDataModified">
+      <summary>
+            Event indicating when new or modified OHLC data has been successfully added to the chart.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.OpenSymbol">
+      <summary>
+            Opens the security by Symbol. Uses the currently set time range.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.OpenSymbol(System.DateTime,System.DateTime)">
+      <summary>
+            Opens the security by Symbol. Manually define a new time range.
+            </summary>
+      <param name="startTime">Time range begin</param>
+      <param name="endTime">Time range end</param>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.PriceChartType">
+      <summary>
+            Price chart type
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TradingChart.PriceChartTypeProperty">
+      <summary>
+            Identifies the PriceChartType dependency property.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.RemoveAndDisposeIndicator(Arction.CustomControls.Trader.WPF.TechnicalIndicators.Indicator)">
+      <summary>
+            Removes and disposes an Indicator
+            </summary>
+      <param name="indicator">Indicator to be disposed</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.SaveToFile(System.String,System.Int32,System.Int32,System.Boolean)">
+      <summary>
+            Save the chart into a image file. Custom size can be defined via width and height parameters.
+            </summary>
+      <param name="fileName">Target file name. You must include file extension (png, bmp, jpg, tif, gif, wmf, emf, svg).</param>
+      <param name="width">Width of required output in pixels</param>
+      <param name="height">Height of required output in pixels</param>
+      <param name="AllowScreenCoordinateChanges">
+            Allows screen coordinates of certain elements to be 
+            scaled by factor of defined size and original size to keep then in place in relation to other 
+            chart elements in vector exports.
+            If unsure, use value true. Should be set to false if annotation tables or such constructs are used. 
+            Affects only vector output (emf and svg). 
+            </param>
+      <returns>True if the image was successfully written to file. 
+            Returns false on invalid file extension, on file write failure and on other problems on image creation or saving. </returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.SaveToStream(System.IO.Stream,Arction.Wpf.Charting.TargetImageFormat,System.Int32,System.Int32,System.Boolean)">
+      <summary>
+            Save the chart into stream in given format. Custom size can be defined via width and height parameters.
+            </summary>
+      <param name="stream">Stream to write to.</param>
+      <param name="format">Image format.</param>
+      <param name="width">Width of required output</param>
+      <param name="height">Height of required output</param>
+      <param name="AllowScreenCoordinateChanges">
+            Allows screen coordinates of certain elements to be 
+            scaled by factor of defined size and original size to keep then in place in relation to other 
+            chart elements in vector exports.
+            If unsure, use value true. Should be set to false if annotation tables or such constructs are used. 
+            Affects only vector output (emf and svg). 
+            </param>
+      <returns>true if succeeded, false otherwise</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.SetAppearance(Arction.CustomControls.Trader.WPF.Appearance)">
+      <summary>
+            Set appearance, such as colors and fonts based. Overrides object colors you might have set explicitly. 
+            </summary>
+      <param name="appearance">Appearance</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.SetData(Arction.CustomControls.Trader.WPF.OhlcData[],System.String,System.String)">
+      <summary>
+            Set data to chart
+            </summary>
+      <param name="data">OHLC and volume data. If it contains gaps of non-trading days, chart removes them automatically</param>
+      <param name="currency">Currency</param>
+      <param name="title">Security title, like "Apple, Inc"</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.SetRestApiKey(System.String)">
+      <summary>
+            Sets the customer-specific rest API key for the data provider. If this is not set, LightningChart's own connection will be used.
+            Call this method only after DataProvider has been set, as changing DataProvider -property resets the current API key.
+            </summary>
+      <param name="restApiKey">The API key</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.SetSecurityInfo(System.String,System.String,System.String,System.String,System.String,System.Double,System.String,System.String,System.String,System.Boolean)">
+      <summary>
+            Manually updates the security information.
+            </summary>
+      <param name="securityName">The name of the security</param>
+      <param name="symbol">Symbol of the security. This also changes the Symbol -property used by OpenSymbol method.</param>
+      <param name="currency">Currency</param>
+      <param name="exchangeLongName">Full name of the stock exchange</param>
+      <param name="exchangeShortName">Abbreviation for the stock exchange</param>
+      <param name="price">Current price of the security</param>
+      <param name="region">Country, city etc. in which the exchange is located.</param>
+      <param name="type">Type of the security e.g. equity</param>
+      <param name="timeZone">Time zone of the exchange</param>
+      <param name="updateTitle">If set true, automatically updates the chart title with the given information</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.SetTimeRange(System.DateTime,System.DateTime,System.Boolean)">
+      <summary>
+            Manually set the time range of the loaded data. Can automatically adjust the current data set according to given time range.
+            If no data has been loaded, the next data set loaded from a provider will use this range unless set otherwise.
+            </summary>
+      <param name="startTime">DateTime of the first data point</param>
+      <param name="endTime">DateTime of the last data point</param>
+      <param name="dropDataOutsideRange">If set true (default), drops data points outside the visible time range. When false, only changes the X-axis minimum and maximum.</param>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.ShowErrorMessages">
+      <summary>
+            When enabled, shows error messages above the chart.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TradingChart.ShowErrorMessagesProperty">
+      <summary>
+            Identifies the ShowErrorMessages dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.ShowSearchBar">
+      <summary>
+            Show the search bar for fetching trading data from Internet above the chart.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TradingChart.ShowSearchBarProperty">
+      <summary>
+            Identifies the ShowSearchBar dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.ShowSegmentSplitters">
+      <summary>
+            Show or hide the splitter ConstantLines separating the segments.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TradingChart.ShowSegmentSplittersProperty">
+      <summary>
+            Identifies the ShowSegmentSplitters dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.ShowTimeLabels">
+      <summary>
+            Show the time labels below the chart.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TradingChart.ShowTimeLabelsProperty">
+      <summary>
+            Identifies the ShowTimeLabels dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.ShowTimeRangeSelection">
+      <summary>
+            Show the time range selection bar.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TradingChart.ShowTimeRangeSelectionProperty">
+      <summary>
+            Identifies the ShowTimeRangeSelection dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.ShowToolMenu">
+      <summary>
+            Show the Drawing Tool and color-theme selection menu in the top-right corner of the chart.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TradingChart.ShowToolMenuProperty">
+      <summary>
+            Identifies the ShowToolMenu dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.ShowWeekNumbers">
+      <summary>
+            Show the week numbers above the chart.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TradingChart.ShowWeekNumbersProperty">
+      <summary>
+            Identifies the ShowWeekNumbers dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.Symbol">
+      <summary>
+            Symbol of Security, e.g. "AAPL" 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TradingChart.SymbolProperty">
+      <summary>
+            Identifies the Symbol dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.TrackOhlcData">
+      <summary>
+            Allows data cursor to track the visible Ohlc-data. When disabled, cursor can still track technical indicators.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TradingChart.TrackOhlcDataProperty">
+      <summary>
+            Identifies the TrackOhlcData dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.TradingData">
+      <summary>
+            Trading data loaded to chart. This is a bindable dependency property.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TradingChart.TradingDataProperty">
+      <summary>
+            Identifies the TradingData dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.ZoomingEnabled">
+      <summary>
+            Allows zooming the chart. Applies to left / right mouse button zoom, and mouse wheel.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TradingChart.ZoomingEnabledProperty">
+      <summary>
+            Identifies the ZoomingEnabled dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.ZoomPanLeftButtonAction">
+      <summary>
+            Left mouse button action
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TradingChart.ZoomPanLeftButtonActionProperty">
+      <summary>
+            Identifies the ZoomPanLeftButtonAction dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.ZoomPanRightButtonAction">
+      <summary>
+            Right mouse button action
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TradingChart.ZoomPanRightButtonActionProperty">
+      <summary>
+            Identifies the ZoomPanRightButtonAction dependency property.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TradingChart.ZoomToFit">
+      <summary>
+            Zoom the data to fit the whole graph. Use ZoomToFitVerticalPadding to leave some empty space above and below the graph.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingChart.ZoomToFitVerticalPadding">
+      <summary>
+            Empty space in pixels left above and below the trading data when calling ZoomToFit() -method. Does not apply to mouse zooming.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TradingChart.ZoomToFitVerticalPaddingProperty">
+      <summary>
+            Identifies the ZoomToFitVerticalPadding dependency property.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.TradingChart.OhlcDataModifiedEventHandler">
+      <summary>
+            Event triggering when Ohlc data has been modified
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.VerticalBarsStat">
+      <summary>
+            Vertical bars statistics
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.VerticalBarsStat.Count">
+      <summary>
+            The total number of bars
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.VerticalBarsStat.FirstX">
+      <summary>
+            The X-value of the first bar
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.VerticalBarsStat.LastX">
+      <summary>
+            The X-value of the last bar
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.VisualObject">
+      <summary>
+            A base class for indicators, drawing tools and mouse-interactive objects
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.VisualObject.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WPF.VisualObject</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.ZoomPanMouseButtonAction">
+      <summary>
+            Zooming and panning button assignment
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.ZoomPanMouseButtonAction.None">
+      <summary>
+            No action 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.ZoomPanMouseButtonAction.Pan">
+      <summary>
+            Panning 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.ZoomPanMouseButtonAction.Zoom">
+      <summary>
+            Zooming
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.DataProviders.AlphaVantageDataProvider">
+      <summary>
+            Alphavantage.co trading data provider 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataProviders.AlphaVantageDataProvider.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WPF.DataProviders.AlphaVantageDataProvider</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataProviders.AlphaVantageDataProvider.GetDataForRange(System.String,System.DateTime,System.DateTime,Arction.CustomControls.Trader.WPF.OhlcData[]@,System.String@)">
+      <summary>
+            Get data for date time range
+            </summary>
+      <param name="symbol">Symbol whose data is to be retrieved</param>
+      <param name="begin">Begin datetime</param>
+      <param name="end">End datetime</param>
+      <param name="ohlcData">Output OHLC data</param>
+      <param name="errorMessage">Error message</param>
+      <returns>Data fetch status</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataProviders.AlphaVantageDataProvider.ParseSearchResponse(System.String)">
+      <summary>
+            Parse the search response 
+            </summary>
+      <param name="response">Response string</param>
+      <returns>Security info array</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataProviders.AlphaVantageDataProvider.ParseStringData(System.String,Arction.CustomControls.Trader.WPF.OhlcData[]@,System.String@,Arction.CustomControls.Trader.WPF.IntradayInfo@)">
+      <summary>
+            Parses the data string read from the provider.
+            </summary>
+      <param name="data">Data string to be parsed</param>
+      <param name="ohlcData">OHLC data read from the data string</param>
+      <param name="errorMessage">Error message to be displayed if parsing fails.</param>
+      <param name="intradayInfo">Info about the Security</param>
+      <returns>Has data parsing succeeded.</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataProviders.AlphaVantageDataProvider.SearchSecurity(System.String)">
+      <summary>
+            Fetches information from the data provider about a Security according to search text.
+            </summary>
+      <param name="searchText">Search text</param>
+      <returns>Information about the Security</returns>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.DataProviders.MarketStackDataProvider">
+      <summary>
+            MarketStack trading data provider 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataProviders.MarketStackDataProvider.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WPF.DataProviders.MarketStackDataProvider</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataProviders.MarketStackDataProvider.GetDataForRange(System.String,System.DateTime,System.DateTime,Arction.CustomControls.Trader.WPF.OhlcData[]@,System.String@)">
+      <summary>
+            Get data for date time range
+            </summary>
+      <param name="symbol">Symbol whose data is to be retrieved</param>
+      <param name="begin">Begin datetime</param>
+      <param name="end">End datetime</param>
+      <param name="ohlcData">Output OHLC data</param>
+      <param name="errorMessage">Error message</param>
+      <returns>Data fetch status</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataProviders.MarketStackDataProvider.ParseSearchResponse(System.String)">
+      <summary>
+            Parse the search response 
+            </summary>
+      <param name="response">Response string</param>
+      <returns>Security info array</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataProviders.MarketStackDataProvider.ParseStringData(System.String,Arction.CustomControls.Trader.WPF.OhlcData[]@,System.String@,Arction.CustomControls.Trader.WPF.IntradayInfo@)">
+      <summary>
+            Parses the data string read from the provider.
+            </summary>
+      <param name="data">Data string to be parsed</param>
+      <param name="ohlcData">OHLC data read from the data string</param>
+      <param name="errorMessage">Error message to be displayed if parsing fails.</param>
+      <param name="intradayInfo">Info about the Security</param>
+      <returns>Has data parsing succeeded.</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataProviders.MarketStackDataProvider.SearchSecurity(System.String)">
+      <summary>
+            Fetches information from the data provider about a Security according to search text.
+            </summary>
+      <param name="searchText">Search text</param>
+      <returns>Information about the Security</returns>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.DataProviders.TradingDataProvider">
+      <summary>
+            Base class for a trading data provider
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataProviders.TradingDataProvider.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DataProviders.TradingDataProvider._signaler">
+      <summary>
+            Auto reset event
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DataProviders.TradingDataProvider._wc">
+      <summary>
+            Web client, which queries and gets reply from REST api
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataProviders.TradingDataProvider.GetDataForRange(System.String,System.DateTime,System.DateTime,Arction.CustomControls.Trader.WPF.OhlcData[]@,System.String@)">
+      <summary>
+            Get data for date time range
+            </summary>
+      <param name="symbol">Symbol whose data is to be retrieved</param>
+      <param name="begin">Begin datetime</param>
+      <param name="end">End datatime</param>
+      <param name="ohlcData">Output OHLC data</param>
+      <param name="errorMessage">Error message</param>
+      <returns>Data fetch status</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataProviders.TradingDataProvider.MakeFileName(System.DateTime,System.DateTime)">
+      <summary>
+            Creates file name when saving a .csv-file.
+            </summary>
+      <param name="begin">Start date</param>
+      <param name="end">End date</param>
+      <returns>The file name and its path</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataProviders.TradingDataProvider.ParseDateTime(System.String)">
+      <summary>
+            Extracts date time from a date string.
+            </summary>
+      <param name="dateString">Date string to be parsed</param>
+      <returns>Parsed date time</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataProviders.TradingDataProvider.ParseSearchResponse(System.String)">
+      <summary>
+            Parse the search response 
+            </summary>
+      <param name="response">Response string</param>
+      <returns>Security info array</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataProviders.TradingDataProvider.ParseStringData(System.String,Arction.CustomControls.Trader.WPF.OhlcData[]@,System.String@,Arction.CustomControls.Trader.WPF.IntradayInfo@)">
+      <summary>
+            Parse OHLC data from string
+            </summary>
+      <param name="data">Data string</param>
+      <param name="ohlcData">Output OHLC data</param>
+      <param name="errorMessage">Error message</param>
+      <param name="intradayInfo">Intraday info</param>
+      <returns>Data parse status</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataProviders.TradingDataProvider.SearchSecurity(System.String)">
+      <summary>
+            Search for a security
+            </summary>
+      <param name="searchText">Symbol or name, or part of it</param>
+      <returns>List of matching records</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataProviders.TradingDataProvider.WriteStringToFile(System.String,System.String)">
+      <summary>
+            Write a string to a file. 
+            </summary>
+      <param name="entry">String to write.</param>
+      <param name="fileName">File name.</param>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.DataProviders.WorldTradingDataProvider">
+      <summary>
+            WorldTradingData trading data provider - currently not working. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataProviders.WorldTradingDataProvider.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WPF.DataProviders.WorldTradingDataProvider</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataProviders.WorldTradingDataProvider.GetDataForRange(System.String,System.DateTime,System.DateTime,Arction.CustomControls.Trader.WPF.OhlcData[]@,System.String@)">
+      <summary>
+            Get data for date time range
+            </summary>
+      <param name="symbol">Symbol whose data is to be retrieved</param>
+      <param name="begin">Begin datetime</param>
+      <param name="end">End datetime</param>
+      <param name="ohlcData">Output OHLC data</param>
+      <param name="errorMessage">Error message</param>
+      <returns>Data fetch status</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataProviders.WorldTradingDataProvider.ParseSearchResponse(System.String)">
+      <summary>
+            Parse the search response 
+            </summary>
+      <param name="response">Response string</param>
+      <returns>Security info array</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataProviders.WorldTradingDataProvider.ParseStringData(System.String,Arction.CustomControls.Trader.WPF.OhlcData[]@,System.String@,Arction.CustomControls.Trader.WPF.IntradayInfo@)">
+      <summary>
+            Parse OHLC data from string
+            </summary>
+      <param name="data">Data string</param>
+      <param name="ohlcData">Output OHLC data</param>
+      <param name="errorMessage">Error message</param>
+      <param name="intradayInfo">Intraday info</param>
+      <returns>Data parse status</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DataProviders.WorldTradingDataProvider.SearchSecurity(System.String)">
+      <summary>
+            Fetches information from the data provider about a Security according to search text.
+            </summary>
+      <param name="searchText">Search text</param>
+      <returns>Information about the Security</returns>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.DrawingTools.ControlPoint">
+      <summary>
+            Control points used to draw and move the Drawing Tools.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DrawingTools.ControlPoint.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.ControlPoint.Visible">
+      <summary>
+            The visibility of the Control Point.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.ControlPoint.X">
+      <summary>
+            Control point's X-axis value.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.ControlPoint.Y">
+      <summary>
+            Control point's Y-axis value.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.DrawingTools.DrawingTool">
+      <summary>
+            Base class for all drawing tools
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DrawingTools.DrawingTool.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WPF.DrawingTools.DrawingTool</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.DrawingTool.ControlPoints">
+      <summary>
+            Control points collection. Control points provide interactive way to modify drawing tool positioning and orientation. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DrawingTools.DrawingTool.SetControlPointsAndDraw(System.Windows.Point,System.Windows.Point)">
+      <summary>
+            Draws the Drawing Tool based on the given coordinates.
+            </summary>
+      <param name="startPoint">Start point</param>
+      <param name="endPoint">End point</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DrawingTools.DrawingTool.StartDrawing">
+      <summary>
+            Start defining the Drawing Tool by mouse
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DrawingTools.DrawingTool.Update(Arction.CustomControls.Trader.WPF.DrawingToolsUpdateFlags)">
+      <summary>
+            Update the drawing tool
+            </summary>
+      <param name="flags">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>flags</parameter>
+            <parameter>M:Arction.CustomControls.Trader.WPF.DrawingTools.DrawingTool.Update(Arction.CustomControls.Trader.WPF.DrawingToolsUpdateFlags)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciArc">
+      <summary>
+            Draws a trend line between two control points, followed by multiple arcs intersecting the line at
+            levels 38.2%, 50.0%, 61.8% and 100%. The arcs are centered on the second control point.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciArc.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciArc.FillEnabled">
+      <summary>
+            Show colored fills between the Fibonacci arcs. If disabled, only the arcs are visible.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciArc.FillEnabledProperty">
+      <summary>
+            Identifies the FillEnabled dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciArc.FullCircle">
+      <summary>
+            Show Fibonacci arcs as full circle.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciArc.FullCircleProperty">
+      <summary>
+            Identifies the FullCircle dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciArc.LabelColor">
+      <summary>
+            Gets or sets the color of the labels.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciArc.LabelColorProperty">
+      <summary>
+            Identifies the LabelColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciArc.LabelDistance">
+      <summary>
+            Label distance to the arc lines in pixels.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciArc.LabelDistanceProperty">
+      <summary>
+            Identifies the LabelDistance dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciArc.LimitYToStackSegment">
+      <summary>
+            Arc lines are clipped outside the main segment, and not shown on segment indicators.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciArc.LimitYToStackSegmentProperty">
+      <summary>
+            Identifies the LimitYToStackSegment dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciArc.LineColor">
+      <summary>
+            Gets or sets the color of the trend line and the arcs.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciArc.LineColorProperty">
+      <summary>
+            Identifies the LineColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciArc.LineWidth">
+      <summary>
+            Gets or sets the width of the trend line and the arcs.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciArc.LineWidthProperty">
+      <summary>
+            Identifies the LineWidth dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciArc.Magnetic">
+      <summary>
+            Fibonacci Arc is attached to the nearest OHLC-data value in vertical direction.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciArc.MagneticProperty">
+      <summary>
+            Identifies the Magnetic dependency property.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciFan">
+      <summary>
+            Draws a trend line between two control points, then several Fibonacci fan lines starting from the first
+            point and crossing an “invisible” vertical line at the X-value of the second point based on Fibonacci
+            levels at 38.2%, 50.0% and 61.8%.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciFan.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciFan.FillEnabled">
+      <summary>
+            Show colored fills between the Fibonacci lines. If disabled, only the lines are visible.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciFan.FillEnabledProperty">
+      <summary>
+            Identifies the FillEnabled dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciFan.LabelColor">
+      <summary>
+            Gets or sets the color of the labels.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciFan.LabelColorProperty">
+      <summary>
+            Identifies the LabelColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciFan.LabelDistance">
+      <summary>
+            Label distance to the Fibonacci lines in pixels.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciFan.LabelDistanceProperty">
+      <summary>
+            Identifies the LabelDistance dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciFan.LimitYToStackSegment">
+      <summary>
+            Fan lines are clipped outside the main segment, and not shown on segment indicators.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciFan.LimitYToStackSegmentProperty">
+      <summary>
+            Identifies the LimitYToStackSegment dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciFan.LineColor">
+      <summary>
+            Gets or sets the color of the fan lines.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciFan.LineColorProperty">
+      <summary>
+            Identifies the LineColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciFan.LineWidth">
+      <summary>
+            Gets or sets the width of the fan lines.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciFan.LineWidthProperty">
+      <summary>
+            Identifies the LineWidth dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciFan.Magnetic">
+      <summary>
+            Fibonacci Fan is attached to the nearest OHLC-data value in vertical direction.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciFan.MagneticProperty">
+      <summary>
+            Identifies the Magnetic dependency property.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciRetracement">
+      <summary>
+            Draws a trend line between two control points, then several horizontal retracement lines based on
+            selected price range(height) of the trendline. The retracement lines are drawn at Fibonacci levels of
+            38.2%, 50.0% and 61.8%.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciRetracement.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciRetracement.FillEnabled">
+      <summary>
+            Show colored fills between the Fibonacci lines. If disabled, only the lines are visible.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciRetracement.FillEnabledProperty">
+      <summary>
+            Identifies the FillEnabled dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciRetracement.LabelColor">
+      <summary>
+            Gets or sets the color of the labels.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciRetracement.LabelColorProperty">
+      <summary>
+            Identifies the LabelColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciRetracement.LabelDistance">
+      <summary>
+            Label distance to the Fibonacci lines in pixels.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciRetracement.LabelDistanceProperty">
+      <summary>
+            Identifies the LabelDistance dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciRetracement.LimitYToStackSegment">
+      <summary>
+            Fibonacci lines are clipped outside the main segment, and not shown on segment indicators.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciRetracement.LimitYToStackSegmentProperty">
+      <summary>
+            Identifies the LimitYToStackSegment dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciRetracement.LineColor">
+      <summary>
+            Gets or sets the color of the trend line and the retracements.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciRetracement.LineColorProperty">
+      <summary>
+            Identifies the LineColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciRetracement.LineWidth">
+      <summary>
+            Gets or sets the line width of the trend line and the retracements.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciRetracement.LineWidthProperty">
+      <summary>
+            Identifies the LineWidth dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciRetracement.Magnetic">
+      <summary>
+            Fibonacci Retracement is attached to the nearest OHLC-data value in vertical direction.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FibonacciRetracement.MagneticProperty">
+      <summary>
+            Identifies the Magnetic dependency property.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.DrawingTools.FreehandAnnotation">
+      <summary>
+            Draws a polygon of any shape based on the mouse movement. A text can be shown inside the polygon.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DrawingTools.FreehandAnnotation.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FreehandAnnotation.AnnotationText">
+      <summary>
+            Gets or sets the text of the annotation.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FreehandAnnotation.AnnotationTextProperty">
+      <summary>
+            Identifies the AnnotationText dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FreehandAnnotation.BorderColor">
+      <summary>
+            Gets or sets the border color of the annotation.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FreehandAnnotation.BorderColorProperty">
+      <summary>
+            Identifies the BorderColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FreehandAnnotation.BorderWidth">
+      <summary>
+            Gets or sets the border width.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FreehandAnnotation.BorderWidthProperty">
+      <summary>
+            Identifies the BorderWidth dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FreehandAnnotation.FillColor">
+      <summary>
+            Gets or sets the color of the annotation.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FreehandAnnotation.FillColorProperty">
+      <summary>
+            Identifies the FillColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FreehandAnnotation.FillEnabled">
+      <summary>
+            Show colored fill. If disabled, only the border line will be visible.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FreehandAnnotation.FillEnabledProperty">
+      <summary>
+            Identifies the FillEnabled dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FreehandAnnotation.FontSize">
+      <summary>
+            Font size of the annotation text
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FreehandAnnotation.FontSizeProperty">
+      <summary>
+            Identifies the FontSize dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FreehandAnnotation.LimitYToStackSegment">
+      <summary>
+            The annotation is clipped outside the main segment, and not shown on segment indicators.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FreehandAnnotation.LimitYToStackSegmentProperty">
+      <summary>
+            Identifies the LimitYToStackSegment dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FreehandAnnotation.ShowText">
+      <summary>
+            Gets or sets the visibility of the text.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FreehandAnnotation.ShowTextProperty">
+      <summary>
+            Identifies the ShowText dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.FreehandAnnotation.TextColor">
+      <summary>
+            The color of the annotation text
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.FreehandAnnotation.TextColorProperty">
+      <summary>
+            Identifies the TextColor dependency property.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.DrawingTools.LinearRegressionChannel">
+      <summary>
+            Calculates and draws a linear regression line between two control points. Then draws two channel
+            lines, one above and one below the regression line based on the selected channel type.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DrawingTools.LinearRegressionChannel.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.LinearRegressionChannel.ChannelType">
+      <summary>
+            Linear regression channel type
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.LinearRegressionChannel.ChannelTypeProperty">
+      <summary>
+            Identifies the ChannelType dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.LinearRegressionChannel.FillEnabled">
+      <summary>
+            Show colored fills between the channel lines.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.LinearRegressionChannel.FillEnabledProperty">
+      <summary>
+            Identifies the FillEnabled dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.LinearRegressionChannel.LimitYToStackSegment">
+      <summary>
+            Channel lines are clipped outside the main segment, and not shown on segment indicators.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.LinearRegressionChannel.LimitYToStackSegmentProperty">
+      <summary>
+            Identifies the LimitYToStackSegment dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.LinearRegressionChannel.LineColor">
+      <summary>
+            Gets or sets the color of the channel lines.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.LinearRegressionChannel.LineColorProperty">
+      <summary>
+            Identifies the LineColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.LinearRegressionChannel.LineWidth">
+      <summary>
+            Gets or sets the width of the channel lines.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.LinearRegressionChannel.LineWidthProperty">
+      <summary>
+            Identifies the LineWidth dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.LinearRegressionChannel.NumberOfStandardDeviations">
+      <summary>
+            The number of standard deviations between the regression trendline and the channel lines. Used when LinearRegressionChannelType is set to StandardDeviations.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.LinearRegressionChannel.NumberOfStandardDeviationsProperty">
+      <summary>
+            Identifies the NumberOfStandardDeviations dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.LinearRegressionChannel.ShowExtensions">
+      <summary>
+            Show dashed extension lines for the channel.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.LinearRegressionChannel.ShowExtensionsProperty">
+      <summary>
+            Identifies the ShowExtensions dependency property.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.DrawingTools.TrendLine">
+      <summary>
+            Draws a straight line between two control points.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.DrawingTools.TrendLine.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.TrendLine.LimitYToStackSegment">
+      <summary>
+            Trend line is clipped outside the main segment, and not shown on segment indicators.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.TrendLine.LimitYToStackSegmentProperty">
+      <summary>
+            Identifies the LimitYToStackSegment dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.TrendLine.LineColor">
+      <summary>
+            Gets or sets the color of the Trend line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.TrendLine.LineColorProperty">
+      <summary>
+            Identifies the LineColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.TrendLine.LineWidth">
+      <summary>
+            Gets or sets the width of the Trend line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.TrendLine.LineWidthProperty">
+      <summary>
+            Identifies the LineWidth dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.TrendLine.Magnetic">
+      <summary>
+            Trend line is attached to the nearest OHLC-data value in vertical direction.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.TrendLine.MagneticProperty">
+      <summary>
+            Identifies the Magnetic dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.DrawingTools.TrendLine.ShowExtensions">
+      <summary>
+            Show dashed extension lines for the Trend line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.DrawingTools.TrendLine.ShowExtensionsProperty">
+      <summary>
+            Identifies the ShowExtensions dependency property.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.Routines.ChartRoutines">
+      <summary>
+            Helper methods for handling various internal chart updates and calculations.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.ChartRoutines.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WPF.Routines.ChartRoutines</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.ChartRoutines.DisposeAllAndClear``1(System.Collections.Generic.List{``0})">
+      <summary>
+            Dispose items and clear the list
+            </summary>
+      <param name="list">List to be disposed and cleared</param>
+      <typeparam name="T">Chart object type</typeparam>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.ChartRoutines.GetIso8601WeekOfYear(System.DateTime)">
+      <summary>
+            Gets the Iso8601 week of year. This presumes that weeks start with Monday. Week 1 is the 1st week of the year with a Thursday in it.
+            </summary>
+      <param name="time">Date time</param>
+      <returns>Week of the year</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.ChartRoutines.GetListOfYAxesInSegmentMouseIsOverOf(Arction.Wpf.Charting.Views.ViewXY.ViewXY,System.Windows.Point,System.Int32@)">
+      <summary>
+            Get list of Y axes of the segment mouse is currently over of
+            </summary>
+      <param name="view">View</param>
+      <param name="point">Point</param>
+      <param name="segmentIndex">Index of segment the mouse is over of. If over none, return -1</param>
+      <returns>List of Y axes. If no matching segment or axes found, returns empty list</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.ChartRoutines.GetSeriesOfSegmentMouseIsOverOf(Arction.Wpf.Charting.Views.ViewXY.ViewXY,System.Windows.Point,System.Int32@)">
+      <summary>
+             Get list of series of the segment mouse is currently over of
+            </summary>
+      <param name="view">View</param>
+      <param name="point">Point</param>
+      <param name="segmentIndex">Index of segment the mouse is over of. If over none, return -1</param>
+      <returns>List of series. If no matching segment or series found, returns empty list</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.ChartRoutines.MakeLineCollectionVerticalBars(System.Double,System.Collections.Generic.List{Arction.Wpf.Charting.PointDouble2D})">
+      <summary>
+            Make vertical bars from base level to given points
+            </summary>
+      <param name="baseLevel">Base level</param>
+      <param name="points">XY points</param>
+      <returns>Vertical bars</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.ChartRoutines.MakeLineCollectionVerticalBars(System.Double,System.Double[],System.Double[])">
+      <summary>
+            Make vertical bars from base level to given Y values
+            </summary>
+      <param name="baseLevel">Base level</param>
+      <param name="xValues">X values</param>
+      <param name="yValues">Y values</param>
+      <returns>Vertical bars</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.ChartRoutines.ToKMB(System.Double)">
+      <summary>
+            Format value to thousands(K), Millions(M), and Billions(B) 
+            </summary>
+      <param name="value">Value to format</param>
+      <returns>Formatted value</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.ChartRoutines.UpdateLineAndControlPointStyle(Arction.Wpf.Charting.SeriesXY.PointLineSeriesBase,System.Double,System.Windows.Media.Color)">
+      <summary>
+            Set line style and color, and ControlPoints size and color according to given line style and width
+            </summary>
+      <param name="series">Series to apply the settings to</param>
+      <param name="lineWidth">Line width</param>
+      <param name="lineColor">Line color</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.ChartRoutines.UpdateLineAndPointStyle(Arction.Wpf.Charting.SeriesXY.PointLineSeriesBase,System.Double,System.Windows.Media.Color)">
+      <summary>
+            Set line style and color, and points size and color according to given line style and width
+            </summary>
+      <param name="series">Series to apply the settings to</param>
+      <param name="lineWidth">Line width</param>
+      <param name="lineColor">Line color</param>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.Routines.ColorRoutines">
+      <summary>
+            Helper methods for handling various color calculations.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.ColorRoutines.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WPF.Routines.ColorRoutines</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.ColorRoutines.CalculateLuminance(System.Windows.Media.Color)">
+      <summary>
+            Calculates luminance of color, a subjective brightness.
+            </summary>
+      <param name="color">Color</param>
+      <returns>Luminance in range of 0...1</returns>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.Routines.OhlcDataRoutines">
+      <summary>
+            Helper routines for OHLC data manipulation  
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.OhlcDataRoutines.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WPF.Routines.OhlcDataRoutines</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.OhlcDataRoutines.GetCloseValuesFromOhlcData(Arction.CustomControls.Trader.WPF.OhlcData[])">
+      <summary>
+            Gets Close values from data.
+            </summary>
+      <param name="data">Input OHLC data</param>
+      <returns>Close values in the same order as in array given</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.OhlcDataRoutines.GetHighValuesFromOhlcData(Arction.CustomControls.Trader.WPF.OhlcData[])">
+      <summary>
+            Gets High values from data
+            </summary>
+      <param name="data">Input OHLC data</param>
+      <returns>High values in the same order as in array given</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.OhlcDataRoutines.GetLowValuesFromOhlcData(Arction.CustomControls.Trader.WPF.OhlcData[])">
+      <summary>
+            Gets Low values from data
+            </summary>
+      <param name="data">Input OHLC data</param>
+      <returns>Low values in the same order as in array given</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.OhlcDataRoutines.GetMinimumIntervalSeconds(Arction.CustomControls.Trader.WPF.OhlcData[])">
+      <summary>
+            Gets data interval in seconds. 
+            If there are gaps in the data, e.g. non-trading days, it removes their affect, and targets in the actual trading days.  
+            </summary>
+      <param name="data">Input OHLC data</param>
+      <returns>Minimum interval in seconds</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.OhlcDataRoutines.GetOpenInterestValuesFromOhlcData(Arction.CustomControls.Trader.WPF.OhlcData[])">
+      <summary>
+            Gets Open Interest values from data
+            </summary>
+      <param name="data">Input OHLC data</param>
+      <returns>Open Interest values in the same order as in array given</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.OhlcDataRoutines.GetOpenValuesFromOhlcData(Arction.CustomControls.Trader.WPF.OhlcData[])">
+      <summary>
+            Gets Open values from data
+            </summary>
+      <param name="data">Input OHLC data</param>
+      <returns>Open values in the same order as in array given</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.OhlcDataRoutines.GetVolumeValuesFromOhlcData(Arction.CustomControls.Trader.WPF.OhlcData[])">
+      <summary>
+            Gets Volume values from data
+            </summary>
+      <param name="data">Input OHLC data</param>
+      <returns>Volume values in the same order as in array given</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.OhlcDataRoutines.GetXValuesAsXAxisValues(Arction.CustomControls.Trader.WPF.OhlcData[],Arction.Wpf.Charting.Axes.AxisX,System.Int32,System.Int32)">
+      <summary>
+            Get X values as XAxis values from given OHLC data. 
+            </summary>
+      <param name="data">Input OHLC data</param>
+      <param name="xAxis">X axis</param>
+      <param name="startIndex">Start index</param>
+      <param name="count">Count to process</param>
+      <returns>X values array</returns>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.Routines.TechnicalAnalysisRoutines">
+      <summary>
+            Helper routines for technical analysis calculations. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.TechnicalAnalysisRoutines.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WPF.Routines.TechnicalAnalysisRoutines</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.TechnicalAnalysisRoutines.CalculateAroon(System.Double[],System.Double[],System.Int32,System.Double[]@,System.Double[]@)">
+      <summary>
+            Calculates Aroon indicator using given number of time periods (n). Returns both Aroon Up and Aroon Down values.
+            </summary>
+      <param name="highValues">OHLC data high values.</param>
+      <param name="lowValues">OHLC data low values.</param>
+      <param name="n">Period count.</param>
+      <param name="aroonUpValues">Aroon Up values.</param>
+      <param name="aroonDownValues">Aroon Down values.</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.TechnicalAnalysisRoutines.CalculateAverageTrueRange(System.Double[],System.Double[],System.Double[],System.Int32)">
+      <summary>
+            Calculates Average True Range values using given number of time periods (n).
+            </summary>
+      <param name="closeValues">OHLC data close values</param>
+      <param name="highValues">OHLC data high values</param>
+      <param name="lowValues">OHLC data low values</param>
+      <param name="n">Period count</param>
+      <returns>ATR values</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.TechnicalAnalysisRoutines.CalculateExponentialMovingAverage(System.Double[],System.Int32)">
+      <summary>
+            Calculate Exponential Moving Average using given averaging frame length (window length, or N) 
+            </summary>
+      <param name="values">Input values</param>
+      <param name="averagingFrameLength">Count of values to use in initial round</param>
+      <returns>Averaged values</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.TechnicalAnalysisRoutines.CalculateMoneyFlowIndex(System.Double[],System.Double[],System.Double[],System.Double[],System.Int32)">
+      <summary>
+            Calculates Money Flow Index values using given number of time periods (n).
+            </summary>
+      <param name="closeValues">OHLC data close values</param>
+      <param name="highValues">OHLC data high values</param>
+      <param name="lowValues">OHLC data low values</param>
+      <param name="volumes">Volume values</param>
+      <param name="n">Period count</param>
+      <returns>MFI values</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.TechnicalAnalysisRoutines.CalculateRateOfChange(System.Double[],System.Int32)">
+      <summary>
+            Calculates Rate of Change values.
+            </summary>
+      <param name="closeValues">OHLC data close values.</param>
+      <param name="n">Period count.</param>
+      <returns>Rate of Change values.</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.TechnicalAnalysisRoutines.CalculateRelativeStrengthIndex(System.Double[],System.Int32)">
+      <summary>
+            Calculate Relative Strength Index (RSI) using given number of time periods, N  
+            </summary>
+      <param name="values">Input values, typically Close values.</param>
+      <param name="n">Count of values over which the smoothing calculation is applied</param>
+      <returns>RSI values</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.TechnicalAnalysisRoutines.CalculateSimpleMovingAverage(System.Double[],System.Int32)">
+      <summary>
+            Calculate Simple Moving Average using given averaging frame length (window length, or period count N) 
+            </summary>
+      <param name="values">Input values</param>
+      <param name="averagingFrameLength">The number of values to use in averaging each round</param>
+      <returns>Averaged values</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.TechnicalAnalysisRoutines.CalculateStochasticOscillatorValues(System.Double[],System.Double[],System.Double[],System.Int32,System.Double[]@,System.Double[]@)">
+      <summary>
+            Calculate Stochastic Oscillator values using given number of time periods (n)
+            </summary>
+      <param name="closeValues">OHLC close values</param>
+      <param name="highValues">OHLC high values</param>
+      <param name="lowValues">OHLC low values</param>
+      <param name="n">Period count</param>
+      <param name="soValues">Stochastic oscillator values</param>
+      <param name="maValues">3 day moving average values based on stochastic oscillator values</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.TechnicalAnalysisRoutines.CalculateTripleMovingAverage(System.Double[],System.Int32,System.Double[]@,System.Double[]@)">
+      <summary>
+            Calculates Triple Exponential Average (TRIX) values using given number of time periods (n).
+            </summary>
+      <param name="closeValues">OHLC data close values.</param>
+      <param name="n">Period count.</param>
+      <param name="trixValues">TRIX values.</param>
+      <param name="signalValues">9-day EMA values based on TRIX.</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.TechnicalAnalysisRoutines.CalculateWeightedMovingAverage(System.Double[],System.Int32)">
+      <summary>
+            Calculate Weighted Moving Average using given averaging frame length (window length, or N) 
+            </summary>
+      <param name="values">Input values</param>
+      <param name="averagingFrameLength">Count of values to use in each round</param>
+      <returns>Averaged values</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.TechnicalAnalysisRoutines.CalculateWilliamsPercentRangeValues(System.Double[],System.Double[],System.Double[],System.Int32)">
+      <summary>
+            Calculates Williams Percent Range values.
+            </summary>
+      <param name="closeValues">OHLC data close values.</param>
+      <param name="highValues">OHLC data high values.</param>
+      <param name="lowValues">OHLC data low values.</param>
+      <param name="n">Period count.</param>
+      <returns>Williams Percent Range values.</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.Routines.TechnicalAnalysisRoutines.StandardDeviation(System.Double[])">
+      <summary>
+            Calculates standard deviation of values.
+            </summary>
+      <param name="values">Values</param>
+      <returns>Stardard deviation</returns>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Aroon">
+      <summary>
+            The Aroon Indicator identifies trend changes in the price. It also reveals the strength of that trend.
+            Consists of two lines: Aroon Up measuring the uptrend strength and Aroon Down measuring the downtrend strength.
+            Appears as a segment below the main price chart. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Aroon.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Aroon.AroonDownLineColor">
+      <summary>
+            Gets or sets the color of the Aroon Down line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Aroon.AroonDownLineColorProperty">
+      <summary>
+            Identifies the AroonDownLineColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Aroon.AroonUpLineColor">
+      <summary>
+            Gets or sets the color of the Aroon Up line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Aroon.AroonUpLineColorProperty">
+      <summary>
+            Identifies the AroonUpLineColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Aroon.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Aroon.LimitYToStackSegmentProperty">
+      <summary>
+            Identifies the LimitYToStackSegment dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Aroon.LineWidth">
+      <summary>
+            Gets or sets the width of the Aroon lines.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Aroon.LineWidthProperty">
+      <summary>
+            Identifies the LineWidth dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Aroon.PeriodCount">
+      <summary>
+            The number of time periods used to calculate Aroon indicator, set to 25 days by default.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Aroon.PeriodCountProperty">
+      <summary>
+            Identifies the PeriodCount dependency property.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.TechnicalIndicators.AverageTrueRange">
+      <summary>
+            Average True Range measures market volatility by calculating the average of true ranges over a given time range.
+            Appears as a segment below the main price chart. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TechnicalIndicators.AverageTrueRange.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.AverageTrueRange.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.AverageTrueRange.LimitYToStackSegmentProperty">
+      <summary>
+            Identifies the LimitYToStackSegment dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.AverageTrueRange.LineColor">
+      <summary>
+            Gets or sets the color of the Average True Range line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.AverageTrueRange.LineColorProperty">
+      <summary>
+            Identifies the LineColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.AverageTrueRange.LineWidth">
+      <summary>
+            Gets or sets the width of the Average True Range line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.AverageTrueRange.LineWidthProperty">
+      <summary>
+            Identifies the LineWidth dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.AverageTrueRange.PeriodCount">
+      <summary>
+            The number of time periods in the Average True Range calculation, set to 14 days by default.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.AverageTrueRange.PeriodCountProperty">
+      <summary>
+            Identifies the PeriodCount dependency property.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.TechnicalIndicators.BollingerBand">
+      <summary>
+            Bollinger Band® is a technical analysis tool defined by a set of lines plotted typically two standard deviations
+            (up and down) away from a simple moving average (SMA) of the security's price. 
+            Many traders believe the closer the prices move to the upper band, the more overbought the market, 
+            and the closer the prices move to the lower band, the more oversold the market. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TechnicalIndicators.BollingerBand.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.BollingerBand.BorderLineColor">
+      <summary>
+            The color of the border of the band
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.BollingerBand.BorderLineColorProperty">
+      <summary>
+            Identifies the BorderLineColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.BollingerBand.BorderLineWidth">
+      <summary>
+            Gets or sets the width of the border of the band.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.BollingerBand.BorderLineWidthProperty">
+      <summary>
+            Identifies the BorderLineWidth dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.BollingerBand.FillColor">
+      <summary>
+            The color of the Bollinger Band
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.BollingerBand.FillColorProperty">
+      <summary>
+            Identifies the FillColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.BollingerBand.FillType">
+      <summary>
+            Bollinger Band fill type
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.BollingerBand.FillTypeProperty">
+      <summary>
+            Identifies the FillType dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.BollingerBand.NumberOfStandardDeviations">
+      <summary>
+            Number of Standard Deviations. 
+            Upper band is SD * this value above Simple Moving Average line, 
+            and Lower band respectively below.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.BollingerBand.NumberOfStandardDeviationsProperty">
+      <summary>
+            Identifies the NumberOfStandardDeviations dependency property.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.TechnicalIndicators.ExponentialMovingAverage">
+      <summary>
+            Exponential moving average (EMA)
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TechnicalIndicators.ExponentialMovingAverage.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Indicator">
+      <summary>
+            Base class for all indicators
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Indicator.#ctor(Arction.CustomControls.Trader.WPF.TradingChart,Arction.Wpf.Charting.Views.ViewXY.ViewXY)">
+      <summary>
+            Indicator
+            </summary>
+      <param name="ownerChart">Owner trading chart</param>
+      <param name="ownerView">Owner view</param>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Indicator.ID">
+      <summary>
+            ID string for the indicator
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Indicator.IDProperty">
+      <summary>
+            Identifies the ID dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Indicator.Title">
+      <summary>
+            Title shown in the data cursor box, and near Y-axes.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Indicator.TitleProperty">
+      <summary>
+            Identifies the Title dependency property.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Indicator.Update(Arction.CustomControls.Trader.WPF.IndicatorUpdateFlags)">
+      <summary>
+            Notify owner to update this indicator with selected flags 
+            </summary>
+      <param name="flags">Update flags</param>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MoneyFlowIndex">
+      <summary>
+            The Money Flow Index (MFI) uses price and volume data for identifying overbought or oversold signals.
+            It can also be used to spot divergences which warn of a trend change in price. MFI moves between 0 and 100.
+            Unlike many other oscillators such as the Relative Strength Index (RSI), the Money Flow Index incorporates both price and volume data.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MoneyFlowIndex.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MoneyFlowIndex.Color">
+      <summary>
+            Gets or sets the color of the Money Flow Index line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MoneyFlowIndex.ColorProperty">
+      <summary>
+            Identifies the Color dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MoneyFlowIndex.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MoneyFlowIndex.LimitYToStackSegmentProperty">
+      <summary>
+            Identifies the LimitYToStackSegment dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MoneyFlowIndex.LineWidth">
+      <summary>
+            Gets or sets the width of the Money Flow Index line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MoneyFlowIndex.LineWidthProperty">
+      <summary>
+            Identifies the LineWidth dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MoneyFlowIndex.OverboughtColor">
+      <summary>
+            Gets or sets the color of the overbought limit.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MoneyFlowIndex.OverboughtColorProperty">
+      <summary>
+            Identifies the OverboughtColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MoneyFlowIndex.OverboughtRange">
+      <summary>
+            Overbought range. Values above this are considered overbought. Default value is 80.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MoneyFlowIndex.OverboughtRangeProperty">
+      <summary>
+            Identifies the OverboughtRange dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MoneyFlowIndex.OversoldColor">
+      <summary>
+            Gets or sets the color of the oversold limit.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MoneyFlowIndex.OversoldColorProperty">
+      <summary>
+            Identifies the OversoldColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MoneyFlowIndex.OversoldRange">
+      <summary>
+            Oversold range. Values below this are considered oversold. Default value is 20.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MoneyFlowIndex.OversoldRangeProperty">
+      <summary>
+            Identifies the OversoldRange dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MoneyFlowIndex.PeriodCount">
+      <summary>
+            The number of time periods in the Money Flow Index calculation, set to 14 days by default.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MoneyFlowIndex.PeriodCountProperty">
+      <summary>
+            Identifies the PeriodCount dependency property.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverage">
+      <summary>
+            Moving average (MA) indicator base class 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverage._xAxis">
+      <summary>
+            X-axis for the Moving Average
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverage._yAxis">
+      <summary>
+            Y-axis for the Moving Average
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverage.Color">
+      <summary>
+            The color of the Moving Average line
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverage.ColorProperty">
+      <summary>
+            Identifies the Color dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverage.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverage.LimitYToStackSegmentProperty">
+      <summary>
+            Identifies the LimitYToStackSegment dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverage.LineWidth">
+      <summary>
+            Gets or sets the width of the Moving Average line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverage.LineWidthProperty">
+      <summary>
+            Identifies the LineWidth dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverage.PeriodCount">
+      <summary>
+            The number of time periods in the Moving Average calculation, set to 10 by default.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverage.PeriodCountProperty">
+      <summary>
+            Identifies the PeriodCount dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverage.TrackIndicator">
+      <summary>
+            Allow Data Cursor to track this indicator.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverage.TrackIndicatorProperty">
+      <summary>
+            Identifies the TrackIndicator dependency property.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence">
+      <summary>
+            Moving Average Convergence Divergence indicator (MACD). 
+            Appears below main price chart. 
+            
+            MACD line is the difference between Exponentially weighted Moving Average (EMA) of Short period data, and EMA of Long period data.  
+            That is: EMA(price short period) - EMA(price long period). 
+            
+            Signal line is Signal period EMA of MACD.   
+            
+            Histogram shows the difference between MACD and Signal. That is: MACD - Signal. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.BaseLineColor">
+      <summary>
+            Gets or sets the base line color.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.BaseLineColorProperty">
+      <summary>
+            Identifies the BaseLineColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.HistogramNegativeStrongColor">
+      <summary>
+            Gets or sets the negative strong color for Histogram.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.HistogramNegativeStrongColorProperty">
+      <summary>
+            Identifies the HistogramNegativeStrongColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.HistogramNegativeWeakColor">
+      <summary>
+            Gets or sets the negative weak color for Histogram.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.HistogramNegativeWeakColorProperty">
+      <summary>
+            Identifies the HistogramNegativeWeakColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.HistogramPositiveStrongColor">
+      <summary>
+            Gets or sets the positive strong color for Histogram.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.HistogramPositiveStrongColorProperty">
+      <summary>
+            Identifies the HistogramPositiveStrongColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.HistogramPositiveWeakColor">
+      <summary>
+            Gets or sets the positive weak color for Histogram.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.HistogramPositiveWeakColorProperty">
+      <summary>
+            Identifies the HistogramPositiveWeakColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.HistogramTitle">
+      <summary>
+            Histogram title
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.HistogramTitleProperty">
+      <summary>
+            Identifies the HistogramTitle dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.LimitYToStackSegmentProperty">
+      <summary>
+            Identifies the LimitYToStackSegment dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.LongPeriodCount">
+      <summary>
+            Gets or sets the long period count.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.LongPeriodCountProperty">
+      <summary>
+            Identifies the LongPeriodCount dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.MacdLineColor">
+      <summary>
+            Gets or sets the MACD line color.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.MacdLineColorProperty">
+      <summary>
+            Identifies the MacdLineColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.MacdLineWidth">
+      <summary>
+            Gets or sets the MACD line width.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.MacdLineWidthProperty">
+      <summary>
+            Identifies the MacdLineWidth dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.MacdTitle">
+      <summary>
+            MACD line title
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.MacdTitleProperty">
+      <summary>
+            Identifies the MacdTitle dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.ShortPeriodCount">
+      <summary>
+            Gets or sets the short period count.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.ShortPeriodCountProperty">
+      <summary>
+            Identifies the ShortPeriodCount dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.SignalLineColor">
+      <summary>
+            Gets or sets the Signal line color.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.SignalLineColorProperty">
+      <summary>
+            Identifies the SignalLineColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.SignalLineWidth">
+      <summary>
+            Gets or sets the Signal line width.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.SignalLineWidthProperty">
+      <summary>
+            Identifies the SignalLineWidth dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.SignalPeriodCount">
+      <summary>
+            Gets or sets the period count for Signal.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.SignalPeriodCountProperty">
+      <summary>
+            Identifies the SignalPeriodCount dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.SignalTitle">
+      <summary>
+            Signal line title
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.MovingAverageConvergenceDivergence.SignalTitleProperty">
+      <summary>
+            Identifies the SignalTitle dependency property.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.TechnicalIndicators.OpenInterest">
+      <summary>
+            Open interest is the total number of outstanding derivative contracts, 
+            such as options or futures that have not been settled for an asset.
+            The total open interest does not count, nor does total of every buy and sell contract. 
+            Instead, open interest provides a more accurate picture of the options trading activity,
+            and whether money flows into the futures and options market are increasing or decreasing. 
+            Shows as a little chart with a line below main price chart. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TechnicalIndicators.OpenInterest.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.OpenInterest.Color">
+      <summary>
+            Gets or sets the color of the Open Interest line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.OpenInterest.ColorProperty">
+      <summary>
+            Identifies the Color dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.OpenInterest.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.OpenInterest.LimitYToStackSegmentProperty">
+      <summary>
+            Identifies the LimitYToStackSegment dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.OpenInterest.LineWidth">
+      <summary>
+            Gets or sets the width of the Open Interest line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.OpenInterest.LineWidthProperty">
+      <summary>
+            Identifies the LineWidth dependency property.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RateOfChange">
+      <summary>
+            Rate of Change indicator measures the price change between the current price and the price a certain number of periods ago.
+            The difference is shown as a percentage. Appears as a segment below the main price chart. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RateOfChange.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RateOfChange.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RateOfChange.LimitYToStackSegmentProperty">
+      <summary>
+            Identifies the LimitYToStackSegment dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RateOfChange.LineColor">
+      <summary>
+            Gets or sets the color of the Rate of Change line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RateOfChange.LineColorProperty">
+      <summary>
+            Identifies the LineColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RateOfChange.LineWidth">
+      <summary>
+            Gets or sets the width of the Rate of Change line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RateOfChange.LineWidthProperty">
+      <summary>
+            Identifies the LineWidth dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RateOfChange.PeriodCount">
+      <summary>
+            The number of time periods in the Rate of Change calculation, set to 9 days by default.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RateOfChange.PeriodCountProperty">
+      <summary>
+            Identifies the PeriodCount dependency property.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RelativeStrengthIndex">
+      <summary>
+            Relative Strength Index indicator (RSI)
+            Appears as a small chart below main price chart. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RelativeStrengthIndex.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RelativeStrengthIndex.Color">
+      <summary>
+            Indicator color between the threshold levels
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RelativeStrengthIndex.ColorProperty">
+      <summary>
+            Identifies the Color dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RelativeStrengthIndex.HighColor">
+      <summary>
+            Get or set the color of the indicator above HighThreshold level.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RelativeStrengthIndex.HighColorProperty">
+      <summary>
+            Identifies the HighColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RelativeStrengthIndex.HighThreshold">
+      <summary>
+            High threshold level, 70 percent by default
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RelativeStrengthIndex.HighThresholdProperty">
+      <summary>
+            Identifies the HighThreshold dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RelativeStrengthIndex.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RelativeStrengthIndex.LimitYToStackSegmentProperty">
+      <summary>
+            Identifies the LimitYToStackSegment dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RelativeStrengthIndex.LineWidth">
+      <summary>
+            Gets or sets the width of the RSI lines.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RelativeStrengthIndex.LineWidthProperty">
+      <summary>
+            Identifies the LineWidth dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RelativeStrengthIndex.LowColor">
+      <summary>
+            Get or set the color of the indicator below LowThreshold level.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RelativeStrengthIndex.LowColorProperty">
+      <summary>
+            Identifies the LowColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RelativeStrengthIndex.LowThreshold">
+      <summary>
+            Low threshold level, 30 percent by default
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RelativeStrengthIndex.LowThresholdProperty">
+      <summary>
+            Identifies the LowThreshold dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RelativeStrengthIndex.PeriodCount">
+      <summary>
+            The number of time periods in the RSI calculation, set to 14-day RSI by default.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.RelativeStrengthIndex.PeriodCountProperty">
+      <summary>
+            Identifies the PeriodCount dependency property.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.TechnicalIndicators.SegmentIndicator">
+      <summary>
+            Segment indicator. Indicator appears as a small chart segment below the main price chart
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TechnicalIndicators.SegmentIndicator.#ctor(Arction.CustomControls.Trader.WPF.TradingChart,Arction.Wpf.Charting.Views.ViewXY.ViewXY)">
+      <summary>
+            Constructor
+            </summary>
+      <param name="ownerChart">Owner chart</param>
+      <param name="ownerView">Owner view</param>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.SegmentIndicator.SegmentHeight">
+      <summary>
+            Segment height, relative to other segment values
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.SegmentIndicator.SegmentHeightProperty">
+      <summary>
+            Identifies the SegmentHeight dependency property.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.TechnicalIndicators.SimpleMovingAverage">
+      <summary>
+            Simple moving average (SMA)
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TechnicalIndicators.SimpleMovingAverage.#ctor">
+      <summary>
+            Constructor 
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.TechnicalIndicators.StochasticOscillator">
+      <summary>
+            Stochastic Oscillator indicator. Compares a closing price to a range of prices over a time period.
+            Appears as a segment below the main price chart. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TechnicalIndicators.StochasticOscillator.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.StochasticOscillator.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.StochasticOscillator.LimitYToStackSegmentProperty">
+      <summary>
+            Identifies the LimitYToStackSegment dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.StochasticOscillator.LineWidth">
+      <summary>
+            Gets or sets the width of the Oscillator and Moving Average lines.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.StochasticOscillator.LineWidthProperty">
+      <summary>
+            Identifies the LineWidth dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.StochasticOscillator.MovingAverageLineColor">
+      <summary>
+            Gets or sets the color of the Moving Average line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.StochasticOscillator.MovingAverageLineColorProperty">
+      <summary>
+            Identifies the MovingAverageLineColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.StochasticOscillator.OscillatorLineColor">
+      <summary>
+            Gets or sets the color of the Oscillator line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.StochasticOscillator.OscillatorLineColorProperty">
+      <summary>
+            Identifies the OscillatorLineColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.StochasticOscillator.OverboughtColor">
+      <summary>
+            Gets or sets the color of the overbought limit.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.StochasticOscillator.OverboughtColorProperty">
+      <summary>
+            Identifies the OverboughtColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.StochasticOscillator.OverboughtRange">
+      <summary>
+            Overbought range. Values above this are considered overbought. Default value is 80.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.StochasticOscillator.OverboughtRangeProperty">
+      <summary>
+            Identifies the OverboughtRange dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.StochasticOscillator.OversoldColor">
+      <summary>
+            Gets or sets the color of the oversold limit.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.StochasticOscillator.OversoldColorProperty">
+      <summary>
+            Identifies the OversoldColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.StochasticOscillator.OversoldRange">
+      <summary>
+            Oversold range. Values below this are considered oversold. Default value is 20.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.StochasticOscillator.OversoldRangeProperty">
+      <summary>
+            Identifies the OversoldRange dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.StochasticOscillator.PeriodCount">
+      <summary>
+            The number of time periods in the Stochastic Oscillator calculation, set to 14 days (fast oscillator) by default.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.StochasticOscillator.PeriodCountProperty">
+      <summary>
+            Identifies the PeriodCount dependency property.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TripleExponentialAverage">
+      <summary>
+            Triple Exponential Average (TRIX) is a triple exponentially smoothed moving average shown as a percentage change.
+            It is designed to filter out unimportant price changes. Appears as a segment below the main price chart. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TripleExponentialAverage.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TripleExponentialAverage.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TripleExponentialAverage.LimitYToStackSegmentProperty">
+      <summary>
+            Identifies the LimitYToStackSegment dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TripleExponentialAverage.LineColor">
+      <summary>
+            Gets or sets the color of the Triple Exponential Average line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TripleExponentialAverage.LineColorProperty">
+      <summary>
+            Identifies the OscillatorLineColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TripleExponentialAverage.LineWidth">
+      <summary>
+            Gets or sets the width of the Triple Exponential Average line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TripleExponentialAverage.LineWidthProperty">
+      <summary>
+            Identifies the LineWidth dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TripleExponentialAverage.PeriodCount">
+      <summary>
+            The number of time periods used to calculate Triple Exponential Average, set to 14 days by default.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TripleExponentialAverage.PeriodCountProperty">
+      <summary>
+            Identifies the PeriodCount dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TripleExponentialAverage.ShowSignalLine">
+      <summary>
+            Show signal line (9-day EMA) based on the Triple Exponential Average line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TripleExponentialAverage.ShowSignalLineProperty">
+      <summary>
+            Identifies the ShowSignalLine dependency property.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine">
+      <summary>
+            Custom Indicator.
+            Allows showing a line and two histograms in a separate segment based on the given data values.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.AddHistogram(System.DateTime[],System.Double[],System.Double,System.Windows.Media.Color,System.Int32)">
+      <summary>
+            Adds a histogram to the indicator.
+            </summary>
+      <param name="xValues">Histogram X-values as DateTimes</param>
+      <param name="yValues">Y-values of the histogram bars</param>
+      <param name="barWidth">Width of the histogram bars</param>
+      <param name="color">Color of the histogram bars</param>
+      <param name="histogramIndex">Histogram to be updated.</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.AddLine(System.DateTime[],System.Double[],System.Double,System.Windows.Media.Color)">
+      <summary>
+            Adds a line to the indicator.
+            </summary>
+      <param name="xValues">Line X-values as DateTimes</param>
+      <param name="yValues">Y-values of the line</param>
+      <param name="lineWidth">Width of the line</param>
+      <param name="color">Color of the line</param>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.HistogramColor1">
+      <summary>
+            Gets or sets the bar color of the first histogram.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.HistogramColor1Property">
+      <summary>
+            Identifies the HistogramColor1 dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.HistogramColor2">
+      <summary>
+            Gets or sets the bar color of the second histogram.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.HistogramColor2Property">
+      <summary>
+            Identifies the HistogramColor2 dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.HistogramsStacked">
+      <summary>
+            Gets or sets whether the histograms are stacked.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.HistogramsStackedProperty">
+      <summary>
+            Identifies the HistogramsStacked dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.HistogramTitle1">
+      <summary>
+            Gets or sets the title of the first histogram.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.HistogramTitle1Property">
+      <summary>
+            Identifies the HistogramTitle1 dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.HistogramTitle2">
+      <summary>
+            Gets or sets the title of the second histogram.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.HistogramTitle2Property">
+      <summary>
+            Identifies the HistogramTitle2 dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.HistogramWidth1">
+      <summary>
+            Gets or sets the bar width of the first histogram.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.HistogramWidth1Property">
+      <summary>
+            Identifies the HistogramWidth1 dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.HistogramWidth2">
+      <summary>
+            Gets or sets the bar width of the second histogram.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.HistogramWidth2Property">
+      <summary>
+            Identifies the HistogramWidth2 dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.LimitYToStackSegmentProperty">
+      <summary>
+            Identifies the LimitYToStackSegment dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.LineColor">
+      <summary>
+            Gets or sets the color of the indicator line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.LineColorProperty">
+      <summary>
+            Identifies the LineColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.LineSeriesTitle">
+      <summary>
+            Gets or sets the title of the indicator line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.LineSeriesTitleProperty">
+      <summary>
+            Identifies the LineSeriesTitle dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.LineWidth">
+      <summary>
+            Gets or sets the width of the indicator line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.TwoHistogramsAndLine.LineWidthProperty">
+      <summary>
+            Identifies the LineWidth dependency property.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.TechnicalIndicators.WeightedMovingAverage">
+      <summary>
+            Weighted moving average (WMA) 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TechnicalIndicators.WeightedMovingAverage.#ctor">
+      <summary>
+            Constructor without parameters
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.TechnicalIndicators.WilliamsPercentRange">
+      <summary>
+            Williams Percent Range, also known as Williams %R, measures overbought and oversold levels
+            by comparing the current closing price to the high-low range over a specific time period.
+            Appears as a segment below the main price chart. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TechnicalIndicators.WilliamsPercentRange.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.WilliamsPercentRange.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.WilliamsPercentRange.LimitYToStackSegmentProperty">
+      <summary>
+            Identifies the LimitYToStackSegment dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.WilliamsPercentRange.LineColor">
+      <summary>
+            Gets or sets the color of the indicator line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.WilliamsPercentRange.LineColorProperty">
+      <summary>
+            Identifies the LineColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.WilliamsPercentRange.LineWidth">
+      <summary>
+            Gets or sets the width of the indicator line.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.WilliamsPercentRange.LineWidthProperty">
+      <summary>
+            Identifies the LineWidth dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.WilliamsPercentRange.OverboughtColor">
+      <summary>
+            Gets or sets the color of the overbought limit.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.WilliamsPercentRange.OverboughtColorProperty">
+      <summary>
+            Identifies the OverboughtColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.WilliamsPercentRange.OverboughtRange">
+      <summary>
+            Overbought range. Values above this are considered overbought. Default value is -20.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.WilliamsPercentRange.OverboughtRangeProperty">
+      <summary>
+            Identifies the OverboughtRange dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.WilliamsPercentRange.OversoldColor">
+      <summary>
+            Gets or sets the color of the oversold limit.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.WilliamsPercentRange.OversoldColorProperty">
+      <summary>
+            Identifies the OversoldColor dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.WilliamsPercentRange.OversoldRange">
+      <summary>
+            Oversold range. Values below this are considered oversold. Default value is -80.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.WilliamsPercentRange.OversoldRangeProperty">
+      <summary>
+            Identifies the OversoldRange dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.WilliamsPercentRange.PeriodCount">
+      <summary>
+            The number of time periods in the William %R calculation, set to 14 days by default.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.WilliamsPercentRange.PeriodCountProperty">
+      <summary>
+            Identifies the PeriodCount dependency property.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Volume">
+      <summary>
+            Volume is the number of traded securities over a certain time period. 
+            Shows as a small chart below the main price chart. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Volume.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Volume.Color">
+      <summary>
+            Gets or sets the color of the Volume indicator.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Volume.ColorProperty">
+      <summary>
+            Identifies the Color dependency property.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Volume.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TechnicalIndicators.Volume.LimitYToStackSegmentProperty">
+      <summary>
+            Identifies the LimitYToStackSegment dependency property.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WPF.TradingDataCursors.DataCursor">
+      <summary>
+            A 'trading' data cursor class 
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WPF.TradingDataCursors.DataCursor.OhlcField">
+      <summary>
+            OHLC field to observe, Open / High / Low / Close
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WPF.TradingDataCursors.DataCursor.OhlcFieldProperty">
+      <summary>
+            Identifies the OhlcField dependency property.
+            </summary>
+    </member>
+  </members>
+</doc>

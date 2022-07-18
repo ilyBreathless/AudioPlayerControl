@@ -1,0 +1,2834 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Arction.WinForms.TradingCharts</name>
+  </assembly>
+  <members>
+    <member name="T:Arction.CustomControls.Trader.WinForms.Appearance">
+      <summary>
+            Appearance, color theme setting
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.Appearance.Dark">
+      <summary>
+            Dark theme 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.Appearance.White">
+      <summary>
+            White theme 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.Appearance.Turquoise">
+      <summary>
+            Turquoise theme
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.Appearance.AcidGreen">
+      <summary>
+            Acid green theme
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.Appearance.Red">
+      <summary>
+            Red theme
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.Appearance.DeepYellow">
+      <summary>
+            Deep yellow theme
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.Appearance.Blue">
+      <summary>
+            Blue theme 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.Appearance.Silver">
+      <summary>
+            Silver theme
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.Appearance.Emerald">
+      <summary>
+            Emerald green theme
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.Appearance.Purple">
+      <summary>
+            Purple theme
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.AppearanceSettings">
+      <summary>
+            The colors of TradingChart components and objects.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.AppearanceSettings.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WinForms.AppearanceSettings</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.AreaFillColor">
+      <summary>
+            Default color for area fills
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.AxisColor">
+      <summary>
+            Default color for the axes
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.AxisLabelsColor">
+      <summary>
+            Color for the axis labels
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.AxisMajorTicksColor">
+      <summary>
+            Color for the axis major ticks
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.AxisMinorTicksColor">
+      <summary>
+            Color for the axis minor ticks
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.AxisTitleColor">
+      <summary>
+            Default color for the axis titles
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.BackgroundColor">
+      <summary>
+            The color of the chart's background (margin area)
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.BollingerBandFillColor">
+      <summary>
+            Bolling Band fill color
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.BollingerBandLineColor">
+      <summary>
+            Bollinger Band line color
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.CandleDownColor">
+      <summary>
+            Down-candle color
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.CandleUpColor">
+      <summary>
+            Up-candle color
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.ChartTitleColor">
+      <summary>
+            The color of the chart title
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.CursorHairCrossColor">
+      <summary>
+            The cross-hair color of the data cursor
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.CursorLabelsFillColor">
+      <summary>
+            Color for cursor labels' fill
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.CursorLabelsTextColor">
+      <summary>
+            Color for cursor labels' text
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.CursorTrackingPointColor">
+      <summary>
+            Cursor tracking point color
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.ForegroundColor">
+      <summary>
+            Foreground color (text, buttons etc.)
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.GraphBackgroundColor">
+      <summary>
+            The color of the graph area
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.GraphBorderColor">
+      <summary>
+            The color of the border around the graph
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.GridLineColor">
+      <summary>
+            Grid line color
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.LineSeriesColor">
+      <summary>
+            Default line series color
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.MacdBaseLineColor">
+      <summary>
+            MACD base line color
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.MacdColor">
+      <summary>
+            MACD line color
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.MacdHistogramNegativeStrong">
+      <summary>
+            MACD histogram color when increasing below zero level 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.MacdHistogramNegativeWeak">
+      <summary>
+            MACD histogram color when decreasing below zero level 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.MacdHistogramPositiveStrong">
+      <summary>
+            MACD histogram color when increasing above zero level 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.MacdHistogramPositiveWeak">
+      <summary>
+            MACD histogram color when decreasing above zero level 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.MacdSignalColor">
+      <summary>
+            MACD signal line color
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.MovingAverageBlendColor">
+      <summary>
+            Moving Average color (blended)
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.MovingAverageColors">
+      <summary>
+            Default colors for Moving Averages
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.RsiColor">
+      <summary>
+            RSI color when between low and high thresholds
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.RsiHighColor">
+      <summary>
+            RSI color when above high threshold
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.RsiLowColor">
+      <summary>
+            RSI color when below low threshold
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.AppearanceSettings.VolumeIndicatorColor">
+      <summary>
+            Default color for Volume
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.BollingerBandFillType">
+      <summary>
+            Bollinger band fill type
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.BollingerBandFillType.None">
+      <summary>
+            No fill
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.BollingerBandFillType.Solid">
+      <summary>
+            Solid fill
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.ClearDrawingTools">
+      <summary>
+            Drawing tool clearing settings
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.ClearDrawingTools.NewDataAndTimeRange">
+      <summary>
+            Drawing Tools are automatically cleared when a new data set is loaded or when a new time range is selected. Zooming in/out does not trigger clearing.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.ClearDrawingTools.NewData">
+      <summary>
+            Drawing Tools are cleared only when a completely new data set is loaded from data provider or from a file.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.ClearDrawingTools.None">
+      <summary>
+            Drawing Tools are not automatically cleared.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.DataAggregationMode">
+      <summary>
+            Data aggregation mode (grouping mode)
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.DataAggregationMode.None">
+      <summary>
+            No data aggregation, each data record given shown as own candle-stick / data point
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.DataAggregationMode.Auto">
+      <summary>
+            Automatic aggregation by visible range, by day / week / month / year etc. 
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.DataAwareControl">
+      <summary>
+            Base class for trading chart
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataAwareControl.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataAwareControl.SetProvider(Arction.CustomControls.Trader.WinForms.DataProvider,Arction.CustomControls.Trader.WinForms.DataProviders.TradingDataProvider)">
+      <summary>
+            Changes the used data provider. Affects the search bar and methods such as OpenSymbol().
+            </summary>
+      <param name="dataProvider">If using custom data provider (DataProvider.UserDefined), set the provider here.</param>
+      <param name="customProvider">Custom data provider</param>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.DataFetchStatus">
+      <summary>
+            Data fetch status
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.DataFetchStatus.OK">
+      <summary>
+            Data fetched successfully
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.DataFetchStatus.ConnectionError">
+      <summary>
+            Error in connection to data provider
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.DataFetchStatus.TooShortData">
+      <summary>
+            No data found
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.DataFetchStatus.DataContainsErrorMessage">
+      <summary>
+            Some errors in fetched data
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.DataFetchStatus.WebException">
+      <summary>
+            Problems when connecting to internet
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.DataParseStatus">
+      <summary>
+            Data parse status
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.DataParseStatus.OK">
+      <summary>
+            Data parsed successfully
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.DataParseStatus.TooShortData">
+      <summary>
+            Response contains no data 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.DataParseStatus.DataContainsErrorMessage">
+      <summary>
+            Some errors in pased data
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.DataProvider">
+      <summary>
+            Trading data provider to be used
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.DataProvider.MarketStack">
+      <summary>
+            Use pre-defined MarketStack service to fetch trading data. If a customer-specific API key should be used, use SetRestApiKey -method to set the key.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.DataProvider.WorldTradingData">
+      <summary>
+            Use pre-defined WorldTradingData.com service to fetch trading data. If a customer-specific API key should be used, use SetRestApiKey -method to set the key. NOTE: WorldTradingData service is currently offline / not working properly.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.DataProvider.AlphaVantage">
+      <summary>
+            Use pre-defined AlphaVantage.co service to fetch trading data. If a customer-specific API key should be used, use SetRestApiKey -method to set the key.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.DataProvider.UserDefined">
+      <summary>
+            Requests trading data from user-defined provider. Prevents automatic calls to pre-defined data providers.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.DataRequestType">
+      <summary>
+            Data format of the data set request.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.DataRequestType.Json">
+      <summary>
+            Request data as json -string.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.DataRequestType.Csv">
+      <summary>
+            Request data as csv formatted string.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.DateTimeRange">
+      <summary>
+            Date time range
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.DateTimeRange.Begin">
+      <summary>
+            The first DateTime value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.DateTimeRange.End">
+      <summary>
+            The last DateTime value
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.Definitions">
+      <summary>
+            Static variables used by many classes.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Definitions.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WinForms.Definitions</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.Definitions.AppearanceSettings">
+      <summary>
+            Appearance settings currently in use
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.Definitions.DeepYellow">
+      <summary>
+            Default yellow color
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.Definitions.YAxisTitleDistanceToAxis">
+      <summary>
+            Y-axis title's distance to axis
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.DrawingToolsUpdateFlags">
+      <summary>
+            What Drawing Tool elements should be updated.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.DrawingToolsUpdateFlags.Appearance">
+      <summary>
+            Updates the appearance of the Drawing Tool.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.DrawingToolsUpdateFlags.Calculations">
+      <summary>
+            Updates the calculations based on the tool's Control points.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.IndicatorUpdateFlags">
+      <summary>
+            What Indicator elements should be updated.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.IndicatorUpdateFlags.Appearance">
+      <summary>
+            Updates the appearance of the Indicator.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.IndicatorUpdateFlags.Data">
+      <summary>
+            Updates the calculations based on data.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.IntradayInfo">
+      <summary>
+            Info about Security
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.IntradayInfo.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WinForms.IntradayInfo</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.IntradayInfo.ExchangeName">
+      <summary>
+            The name of the Stock exchange
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.IntradayInfo.Name">
+      <summary>
+            The name of the Security
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.LinearRegressionChannelType">
+      <summary>
+            Linear regression channel type
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.LinearRegressionChannelType.StandardDeviations">
+      <summary>
+            A set number of standard deviations between the linear regression line and the channel lines. Use NumberOfStandardDeviations -property to set the standard deviation count.
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.LinearRegressionChannelType.RaffChannel">
+      <summary>
+            Upper line and lower line distances are based on the most projecting top or bottom
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.LinearRegressionChannelType.Line">
+      <summary>
+            Draws only the linear regression line
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.OhlcData">
+      <summary>
+            Struct to contain trading data
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.OhlcData.Close">
+      <summary>
+            Close value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.OhlcData.DateTime">
+      <summary>
+            DateTime
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.OhlcData.GetField(Arction.CustomControls.Trader.WinForms.OhlcField)">
+      <summary>
+            Gets the value of the given field.
+            </summary>
+      <param name="field">OHLC field</param>
+      <returns>Field value</returns>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.OhlcData.High">
+      <summary>
+            High value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.OhlcData.Low">
+      <summary>
+            Low value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.OhlcData.Open">
+      <summary>
+            Open value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.OhlcData.OpenInterest">
+      <summary>
+            OpenInterest value (optional)
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.OhlcData.Volume">
+      <summary>
+            Volume value (optional)
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.OhlcField">
+      <summary>
+            OHLC field selector
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.OhlcField.Open">
+      <summary>
+            Open value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.OhlcField.High">
+      <summary>
+            High value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.OhlcField.Low">
+      <summary>
+            Low value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.OhlcField.Close">
+      <summary>
+            Close value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.OhlcField.Volume">
+      <summary>
+            Volume value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.OhlcField.OpenInterest">
+      <summary>
+            Open interest value
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.PriceChartOhlcField">
+      <summary>
+            Price chart OHLC field selector. 
+            Note, Volume and OpenInterest are not applicable for price chart, as they are plotted as auxiliary charts by themselves. 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.PriceChartOhlcField.Open">
+      <summary>
+            Open value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.PriceChartOhlcField.High">
+      <summary>
+            High value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.PriceChartOhlcField.Low">
+      <summary>
+            Low value
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.PriceChartOhlcField.Close">
+      <summary>
+            Close value
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.PriceChartType">
+      <summary>
+            Price chart type
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.PriceChartType.CandleSticks">
+      <summary>
+            Candle-sticks
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.PriceChartType.Bars">
+      <summary>
+            Price bars 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.PriceChartType.Line">
+      <summary>
+            Line
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.PriceChartType.Mountain">
+      <summary>
+            Mountain (area) 
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.SearchGridSelectionChangedEventArgs">
+      <summary>
+            Used when search bar's selected index/Symbol changes
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.SearchGridSelectionChangedEventArgs.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.SearchGridSelectionChangedEventArgs.Index">
+      <summary>
+            Index of selected search result 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.SearchGridSelectionChangedEventArgs.SelectedSearchResult">
+      <summary>
+            Selected search result 
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.SecurityInfo">
+      <summary>
+            Details about Security
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.SecurityInfo.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WinForms.SecurityInfo</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.SecurityInfo.Currency">
+      <summary>
+            The currency used by the Security
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.SecurityInfo.ExchangeLong">
+      <summary>
+            Stock exchange's long name
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.SecurityInfo.ExchangeShort">
+      <summary>
+            Stock exchange's short name
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.SecurityInfo.Name">
+      <summary>
+            Security's name
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.SecurityInfo.Price">
+      <summary>
+            Current prive value
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.SecurityInfo.Region">
+      <summary>
+            Region of the Stock exchange
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.SecurityInfo.Symbol">
+      <summary>
+            Security Symbol (AAPL etc.)
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.SecurityInfo.TimeZone">
+      <summary>
+            Time zone of the Stock exchange
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.SecurityInfo.ToString">
+      <summary>
+            Returns basic information about the Security (Name, Symbol, Currency, Stock exchange).
+            </summary>
+      <returns>Info string about the Security</returns>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.SecurityInfo.Type">
+      <summary>
+            Type of the Security
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.SymbolSearch">
+      <summary>
+            Interaction logic for SymbolSearch.xaml
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.SymbolSearch.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.SymbolSearch.Dispose(System.Boolean)">
+      <summary> 
+            Clean up any resources being used.
+            </summary>
+      <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.ToggleButton">
+      <summary>
+            Custom button class for the Time range buttons.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.ToggleButton.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.ToggleButton.Color1">
+      <summary>
+            The main color
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.ToggleButton.Color2">
+      <summary>
+            Gradient color
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.ToggleButton.OnMouseEnter(System.EventArgs)">
+      <summary>
+            To change colors when mouse is over the button.
+            </summary>
+      <param name="e">Event Args</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.ToggleButton.OnMouseLeave(System.EventArgs)">
+      <summary>
+            To change colors back when mouse leaves the button.
+            </summary>
+      <param name="e">Event Args</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.ToggleButton.OnPaint(System.Windows.Forms.PaintEventArgs)">
+      <summary>
+            Creates a gradient brush
+            </summary>
+      <param name="p">Event Args</param>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.TradingChart">
+      <summary>
+            Interaction logic for TradingChart
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.AddData(Arction.CustomControls.Trader.WinForms.OhlcData[],System.String,System.String)">
+      <summary>
+            Adds new data points to the chart. Does not remove or replace the existing data points.
+            </summary>
+      <param name="data">OHLC and volume data. If it contains gaps of non-trading days, chart removes them automatically</param>
+      <param name="currency">Currency</param>
+      <param name="title">Security title, like "Apple, Inc"</param>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.AggregationMode">
+      <summary>
+            Aggreation mode (data grouping mode)
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.AutoClearDrawingTools">
+      <summary>
+            Gets or sets if all Drawing Tools should be automatically cleared and disposed when new trading data is loaded to the chart.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.BeginUpdate">
+      <summary>
+            Begin update. Disables control repaints when a property is changed. Handy when
+            updating status of many properties or setting data of various objects.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.ChartName">
+      <summary>
+            The name of the chart
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.ClearData(System.Boolean,System.Boolean)">
+      <summary>
+            Clears all trading data.
+            </summary>
+      <param name="clearIndicators">Remove and dispose also all Indicators.</param>
+      <param name="clearDrawingTools">Remove and dispose also all Drawing Tools</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.CopyToClipboard(Arction.WinForms.Charting.ClipboardImageFormat,System.Int32,System.Int32,System.Boolean)">
+      <summary>
+            Copy the chart to clipboard image. Custom size can be defined via width and height parameters.
+            </summary>
+      <param name="format">Clipboard image format.</param>
+      <param name="width">Width of required output</param>
+      <param name="height">Height of required output</param>
+      <param name="AllowScreenCoordinateChanges">
+            Allows screen coordinates of certain elements to be 
+            scaled by factor of defined size and original size to keep then in place in relation to other 
+            chart elements in vector exports.
+            If unsure, use value true. Should be set to false if annotation tables or such constructs are used. 
+            Affects only vector output (emf and svg). 
+            </param>
+      <returns>true if succeeded, false otherwise</returns>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.DataCursor">
+      <summary>
+            Data cursor object
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.DataPacking">
+      <summary>
+            OHLC data is automatically packed if data values are starting to overlap each other. Increases performance, but may decrease accuracy.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.DataProvider">
+      <summary>
+            Controls which trading data provider should be used. 
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.DataRequestType">
+      <summary>
+            Set in which data string format (json, csv) the pre-defined provider returns data.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.DateTimeToXValue(System.DateTime)">
+      <summary>
+            Converts given DateTime to actual X-axis value. Due to removal of non-trading days, the X-axis is not linear.
+            Therefore, it is not possible to convert values outside the visible time range. Returns minimum or maximum axis value if given time is outside the range.
+            </summary>
+      <param name="dateTime">DateTime to be converted.</param>
+      <returns>X value</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.Dispose">
+      <summary>
+            Disposes the chart and all its indicators and drawing tools.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.Dispose(System.Boolean)">
+      <summary>
+            Clean up any resources being used.
+            </summary>
+      <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.DisposeAllDrawingTools">
+      <summary>
+            Removes and disposes all Drawing Tools in the chart.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.DisposeAllIndicators">
+      <summary>
+            Removes and disposes all Indicators in the chart.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.DrawingTools">
+      <summary>
+            Drawing tools collection. Add here. e.g. TrendLine drawing tool 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.EndUpdate">
+      <summary>
+            End update. Enables control repainting, and refreshes the control.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.GetAllRangeButtons">
+      <summary>
+            Gets a list of all time range buttons.
+            </summary>
+      <returns>List of buttons</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.GetInternalChart">
+      <summary>
+            Gets a LightningChart instance which this trading chart API is built on. 
+            Gives you direct control of the chart, and allows customizing it in further level.  
+            </summary>
+      <returns>LightningChart instance</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.GetOhlcData">
+      <summary>
+            Gets the current data set as an Ohlc-data array. Returns the whole loaded data set, not only the current visible time range.
+            </summary>
+      <returns>The loaded data set.</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.GetOhlcDataFromFile(System.String,System.Char)">
+      <summary>
+            Converts CSV formatted data into OHLC data.
+            Requires data to have the following columns: Date / Time, Open, High, Low, Close.
+            Can have two optional columns: Volume, OpenInterest.
+            </summary>
+      <param name="fileName">The path and the name of the file</param>
+      <param name="delimiter">Character used as to separate the entries. Comma by default.</param>
+      <returns>OHLC data array</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.GetTimeRange(System.DateTime@,System.DateTime@)">
+      <summary>
+            Gets the time range of the current data set.
+            </summary>
+      <param name="startTime">Time range begin</param>
+      <param name="endTime">time range end</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.GetXAxisMinMax(System.Double@,System.Double@)">
+      <summary>
+            Gets the actual minimum and maximum double values of the time range X-axis. To get the start/end dates, use GetTimeRange() -method.
+            </summary>
+      <param name="minimum">Minimum X-axis value</param>
+      <param name="maximum">Maximum X-axis value</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.GetYAxisMinMax(System.Double@,System.Double@)">
+      <summary>
+            Gets the minimum and maximum values of the price Y-axis.
+            </summary>
+      <param name="minimum">Minimum Y-axis value</param>
+      <param name="maximum">Maximum Y-axis value</param>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.Indicators">
+      <summary>
+            Indicators collection. Add here e.g. Simple Moving Average or Relative Strength Index technical indicators.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.LimitOhlcDataToStackSegment">
+      <summary>
+            The OHLC data series is clipped outside the main segment, and is not shown on segment indicators.
+            </summary>
+    </member>
+    <member name="E:Arction.CustomControls.Trader.WinForms.TradingChart.OhlcDataModified">
+      <summary>
+            Event indicating when new or modified OHLC data has been successfully added to the chart.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.OpenSymbol">
+      <summary>
+            Opens the security by Symbol. Uses the currently set time range.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.OpenSymbol(System.DateTime,System.DateTime)">
+      <summary>
+            Opens the security by Symbol. Manually define a new time range.
+            </summary>
+      <param name="startTime">Time range begin</param>
+      <param name="endTime">Time range end</param>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.PriceChartType">
+      <summary>
+            Price chart type
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.RemoveAndDisposeIndicator(Arction.CustomControls.Trader.WinForms.TechnicalIndicators.Indicator)">
+      <summary>
+            Removes and disposes the given indicator.
+            </summary>
+      <param name="indicator">Indicator to be disposed</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.SaveToFile(System.String,System.Int32,System.Int32,System.Boolean)">
+      <summary>
+            Save the chart into a image file. Custom size can be defined via width and height parameters.
+            </summary>
+      <param name="fileName">Target file name. You must include file extension (png, bmp, jpg, tif, gif, wmf, emf, svg).</param>
+      <param name="width">Width of required output in pixels</param>
+      <param name="height">Height of required output in pixels</param>
+      <param name="AllowScreenCoordinateChanges">
+            Allows screen coordinates of certain elements to be 
+            scaled by factor of defined size and original size to keep then in place in relation to other 
+            chart elements in vector exports.
+            If unsure, use value true. Should be set to false if annotation tables or such constructs are used. 
+            Affects only vector output (emf and svg). 
+            </param>
+      <returns>True if the image was successfully written to file. 
+            Returns false on invalid file extension, on file write failure and on other problems on image creation or saving. </returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.SaveToStream(System.IO.Stream,Arction.WinForms.Charting.TargetImageFormat,System.Int32,System.Int32,System.Boolean)">
+      <summary>
+            Save the chart into stream in given format. Custom size can be defined via width and height parameters.
+            </summary>
+      <param name="stream">Stream to write to.</param>
+      <param name="format">Image format.</param>
+      <param name="width">Width of required output</param>
+      <param name="height">Height of required output</param>
+      <param name="AllowScreenCoordinateChanges">
+            Allows screen coordinates of certain elements to be 
+            scaled by factor of defined size and original size to keep then in place in relation to other 
+            chart elements in vector exports.
+            If unsure, use value true. Should be set to false if annotation tables or such constructs are used. 
+            Affects only vector output (emf and svg). 
+            </param>
+      <returns>true if succeeded, false otherwise</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.SetAppearance(Arction.CustomControls.Trader.WinForms.Appearance)">
+      <summary>
+            Set appearance, such as colors and fonts based. Overrides object colors you might have set explicitly. 
+            </summary>
+      <param name="appearance">Appearance</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.SetData(Arction.CustomControls.Trader.WinForms.OhlcData[],System.String,System.String)">
+      <summary>
+            Set data to chart
+            </summary>
+      <param name="data">OHLC and volume data. If it contains gaps of non-trading days, chart removes them automatically</param>
+      <param name="currency">Currency</param>
+      <param name="title">Security title, like "Apple, Inc"</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.SetRestApiKey(System.String)">
+      <summary>
+            Sets the customer-specific rest API key for the data provider. If this is not set, LightningChart's own connection will be used.
+            Call this method only after DataProvider has been set, as changing DataProvider -property resets the current API key.
+            </summary>
+      <param name="restApiKey">The API key</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.SetSecurityInfo(System.String,System.String,System.String,System.String,System.String,System.Double,System.String,System.String,System.String,System.Boolean)">
+      <summary>
+            Manually updates the security information.
+            </summary>
+      <param name="securityName">The name of the security</param>
+      <param name="symbol">Symbol of the security. This also changes the Symbol -property used by OpenSymbol method.</param>
+      <param name="currency">Currency</param>
+      <param name="exchangeLongName">Full name of the stock exchange</param>
+      <param name="exchangeShortName">Abbreviation for the stock exchange</param>
+      <param name="price">Current price of the security</param>
+      <param name="region">Country, city etc. in which the exchange is located.</param>
+      <param name="type">Type of the security e.g. equity</param>
+      <param name="timeZone">Time zone of the exchange</param>
+      <param name="updateTitle">If set true, automatically updates the chart title with the given information</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.SetTimeRange(System.DateTime,System.DateTime,System.Boolean)">
+      <summary>
+            Manually set the time range of the loaded data. Can automatically adjust the current data set according to given time range.
+            If no data has been loaded, the next data set loaded from a provider will use this range unless set otherwise.
+            </summary>
+      <param name="startTime">DateTime of the first data point</param>
+      <param name="endTime">DateTime of the last data point</param>
+      <param name="dropDataOutsideRange">If set true (default), drops data points outside the visible time range. When false, only changes the X-axis minimum and maximum.</param>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.ShowErrorMessages">
+      <summary>
+            When enabled, shows error messages above the chart.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.ShowSearchBar">
+      <summary>
+            Show the search bar for fetching trading data from Internet above the chart.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.ShowSegmentSplitters">
+      <summary>
+            Show or hide the splitter ConstantLines separating the segments.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.ShowTimeLabels">
+      <summary>
+            Show time labels below the chart.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.ShowTimeRangeSelection">
+      <summary>
+            Show the time range selection bar.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.ShowToolMenu">
+      <summary>
+            Show the Drawing Tool and color-theme selection menu in the top-right corner of the chart.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.ShowWeekNumbers">
+      <summary>
+            Show the week numbers above the chart.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.Symbol">
+      <summary>
+            Symbol of Security, e.g. "AAPL" 
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.TrackOhlcData">
+      <summary>
+            Allows data cursor to track the visible Ohlc-data. When disabled, cursor can still track technical indicators.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.ZoomingEnabled">
+      <summary>
+            Allows zooming the chart. Applies to left / right mouse button zoom, and mouse wheel.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.ZoomPanLeftButtonAction">
+      <summary>
+            Left mouse button action
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.ZoomPanRightButtonAction">
+      <summary>
+            Right mouse button action
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TradingChart.ZoomToFit">
+      <summary>
+            Zoom the data to fit the whole graph. Use ZoomToFitVerticalPadding to leave some empty space above and below the graph.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingChart.ZoomToFitVerticalPadding">
+      <summary>
+            Empty space in pixels left above and below the trading data when calling ZoomToFit() -method. Does not apply to mouse zooming.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.TradingChart.OhlcDataModifiedEventHandler">
+      <summary>
+            Event which fires when Ohlc data has been modified.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.VerticalBarsStat">
+      <summary>
+            Vertical bars statistics
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.VerticalBarsStat.Count">
+      <summary>
+            The total number of bars
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.VerticalBarsStat.FirstX">
+      <summary>
+            The X-value of the first bar
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.VerticalBarsStat.LastX">
+      <summary>
+            The X-value of the last bar
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.VisualObject">
+      <summary>
+            A base class for indicators, drawing tools and mouse-interactive objects
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.VisualObject.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WinForms.VisualObject</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.ZoomPanMouseButtonAction">
+      <summary>
+            Zooming and panning button assignment
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.ZoomPanMouseButtonAction.None">
+      <summary>
+            No action 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.ZoomPanMouseButtonAction.Pan">
+      <summary>
+            Panning 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.ZoomPanMouseButtonAction.Zoom">
+      <summary>
+            Zooming
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.DataProviders.AlphaVantageDataProvider">
+      <summary>
+            Alphavantage.co trading data provider 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataProviders.AlphaVantageDataProvider.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WinForms.DataProviders.AlphaVantageDataProvider</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataProviders.AlphaVantageDataProvider.GetDataForRange(System.String,System.DateTime,System.DateTime,Arction.CustomControls.Trader.WinForms.OhlcData[]@,System.String@)">
+      <summary>
+            Get data for date time range
+            </summary>
+      <param name="symbol">Symbol whose data is to be retrieved</param>
+      <param name="begin">Begin datetime</param>
+      <param name="end">End datetime</param>
+      <param name="ohlcData">Output OHLC data</param>
+      <param name="errorMessage">Error message</param>
+      <returns>Data fetch status</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataProviders.AlphaVantageDataProvider.ParseSearchResponse(System.String)">
+      <summary>
+            Parse the search response 
+            </summary>
+      <param name="response">Response string</param>
+      <returns>Security info array</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataProviders.AlphaVantageDataProvider.ParseStringData(System.String,Arction.CustomControls.Trader.WinForms.OhlcData[]@,System.String@,Arction.CustomControls.Trader.WinForms.IntradayInfo@)">
+      <summary>
+            Parses the data string read from the provider.
+            </summary>
+      <param name="data">Data string to be parsed</param>
+      <param name="ohlcData">OHLC data read from the data string</param>
+      <param name="errorMessage">Error message to be displayed if parsing fails.</param>
+      <param name="intradayInfo">Info about the Security</param>
+      <returns>Has data parsing succeeded.</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataProviders.AlphaVantageDataProvider.SearchSecurity(System.String)">
+      <summary>
+            Fetches information from the data provider about a Security according to search text.
+            </summary>
+      <param name="searchText">Search text</param>
+      <returns>Information about the Security</returns>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.DataProviders.MarketStackDataProvider">
+      <summary>
+            MarketStack trading data provider 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataProviders.MarketStackDataProvider.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WinForms.DataProviders.MarketStackDataProvider</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataProviders.MarketStackDataProvider.GetDataForRange(System.String,System.DateTime,System.DateTime,Arction.CustomControls.Trader.WinForms.OhlcData[]@,System.String@)">
+      <summary>
+            Get data for date time range
+            </summary>
+      <param name="symbol">Symbol whose data is to be retrieved</param>
+      <param name="begin">Begin datetime</param>
+      <param name="end">End datetime</param>
+      <param name="ohlcData">Output OHLC data</param>
+      <param name="errorMessage">Error message</param>
+      <returns>Data fetch status</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataProviders.MarketStackDataProvider.ParseSearchResponse(System.String)">
+      <summary>
+            Parse the search response 
+            </summary>
+      <param name="response">Response string</param>
+      <returns>Security info array</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataProviders.MarketStackDataProvider.ParseStringData(System.String,Arction.CustomControls.Trader.WinForms.OhlcData[]@,System.String@,Arction.CustomControls.Trader.WinForms.IntradayInfo@)">
+      <summary>
+            Parses the data string read from the provider.
+            </summary>
+      <param name="data">Data string to be parsed</param>
+      <param name="ohlcData">OHLC data read from the data string</param>
+      <param name="errorMessage">Error message to be displayed if parsing fails.</param>
+      <param name="intradayInfo">Info about the Security</param>
+      <returns>Has data parsing succeeded.</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataProviders.MarketStackDataProvider.SearchSecurity(System.String)">
+      <summary>
+            Fetches information from the data provider about a Security according to search text.
+            </summary>
+      <param name="searchText">Search text</param>
+      <returns>Information about the Security</returns>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.DataProviders.TradingDataProvider">
+      <summary>
+            Base class for a trading data provider
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataProviders.TradingDataProvider.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.DataProviders.TradingDataProvider._signaler">
+      <summary>
+            Auto reset event
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.DataProviders.TradingDataProvider._wc">
+      <summary>
+            Web client, which queries and gets reply from REST api
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataProviders.TradingDataProvider.GetDataForRange(System.String,System.DateTime,System.DateTime,Arction.CustomControls.Trader.WinForms.OhlcData[]@,System.String@)">
+      <summary>
+            Get data for date time range
+            </summary>
+      <param name="symbol">Symbol whose data is to be retrieved</param>
+      <param name="begin">Begin datetime</param>
+      <param name="end">End datatime</param>
+      <param name="ohlcData">Output OHLC data</param>
+      <param name="errorMessage">Error message</param>
+      <returns>Data fetch status</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataProviders.TradingDataProvider.MakeFileName(System.DateTime,System.DateTime)">
+      <summary>
+            Creates file name when saving a .csv-file.
+            </summary>
+      <param name="begin">Start date</param>
+      <param name="end">End date</param>
+      <returns>The file name and its path</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataProviders.TradingDataProvider.ParseDateTime(System.String)">
+      <summary>
+            Extracts date time from a date string.
+            </summary>
+      <param name="dateString">Date string to be parsed</param>
+      <returns>Parsed date time</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataProviders.TradingDataProvider.ParseSearchResponse(System.String)">
+      <summary>
+            Parse the search response 
+            </summary>
+      <param name="response">Response string</param>
+      <returns>Security info array</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataProviders.TradingDataProvider.ParseStringData(System.String,Arction.CustomControls.Trader.WinForms.OhlcData[]@,System.String@,Arction.CustomControls.Trader.WinForms.IntradayInfo@)">
+      <summary>
+            Parse OHLC data from string
+            </summary>
+      <param name="data">Data string</param>
+      <param name="ohlcData">Output OHLC data</param>
+      <param name="errorMessage">Error message</param>
+      <param name="intradayInfo">Intraday info</param>
+      <returns>Data parse status</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataProviders.TradingDataProvider.SearchSecurity(System.String)">
+      <summary>
+            Search for a security
+            </summary>
+      <param name="searchText">Symbol or name, or part of it</param>
+      <returns>List of matching records</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataProviders.TradingDataProvider.WriteStringToFile(System.String,System.String)">
+      <summary>
+            Write a string to a file. 
+            </summary>
+      <param name="entry">String to write.</param>
+      <param name="fileName">File name.</param>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.DataProviders.WorldTradingDataProvider">
+      <summary>
+            WorldTradingData trading data provider - currently not working. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataProviders.WorldTradingDataProvider.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WinForms.DataProviders.WorldTradingDataProvider</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataProviders.WorldTradingDataProvider.GetDataForRange(System.String,System.DateTime,System.DateTime,Arction.CustomControls.Trader.WinForms.OhlcData[]@,System.String@)">
+      <summary>
+            Get data for date time range
+            </summary>
+      <param name="symbol">Symbol whose data is to be retrieved</param>
+      <param name="begin">Begin datetime</param>
+      <param name="end">End datetime</param>
+      <param name="ohlcData">Output OHLC data</param>
+      <param name="errorMessage">Error message</param>
+      <returns>Data fetch status</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataProviders.WorldTradingDataProvider.ParseSearchResponse(System.String)">
+      <summary>
+            Parse the search response 
+            </summary>
+      <param name="response">Response string</param>
+      <returns>Security info array</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataProviders.WorldTradingDataProvider.ParseStringData(System.String,Arction.CustomControls.Trader.WinForms.OhlcData[]@,System.String@,Arction.CustomControls.Trader.WinForms.IntradayInfo@)">
+      <summary>
+            Parse OHLC data from string
+            </summary>
+      <param name="data">Data string</param>
+      <param name="ohlcData">Output OHLC data</param>
+      <param name="errorMessage">Error message</param>
+      <param name="intradayInfo">Intraday info</param>
+      <returns>Data parse status</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DataProviders.WorldTradingDataProvider.SearchSecurity(System.String)">
+      <summary>
+            Fetches information from the data provider about a Security according to search text.
+            </summary>
+      <param name="searchText">Search text</param>
+      <returns>Information about the Security</returns>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.DrawingTools.ControlPoint">
+      <summary>
+            Control points used to draw and move the Drawing Tools.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DrawingTools.ControlPoint.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.ControlPoint.Visible">
+      <summary>
+            The visibility of the Control Point.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.ControlPoint.X">
+      <summary>
+            Control point's X-axis value.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.ControlPoint.Y">
+      <summary>
+            Control point's Y-axis value.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.DrawingTools.DrawingTool">
+      <summary>
+            Base class for all drawing tools
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DrawingTools.DrawingTool.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WinForms.DrawingTools.DrawingTool</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.DrawingTool.ControlPoints">
+      <summary>
+            Control points collection. Control points provide interactive way to modify drawing tool positioning and orientation. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DrawingTools.DrawingTool.SetControlPointsAndDraw(System.Drawing.Point,System.Drawing.Point)">
+      <summary>
+            Draws the Drawing Tool based on the given coordinates.
+            </summary>
+      <param name="startPoint">Start point</param>
+      <param name="endPoint">End point</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DrawingTools.DrawingTool.StartDrawing">
+      <summary>
+            Start defining the Drawing Tool by mouse
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DrawingTools.DrawingTool.Update(Arction.CustomControls.Trader.WinForms.DrawingToolsUpdateFlags)">
+      <summary>
+            Update the drawing tool
+            </summary>
+      <param name="flags">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>flags</parameter>
+            <parameter>M:Arction.CustomControls.Trader.WinForms.DrawingTools.DrawingTool.Update(Arction.CustomControls.Trader.WinForms.DrawingToolsUpdateFlags)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciArc">
+      <summary>
+            Draws a trend line between two control points, followed by multiple arcs intersecting the line at
+            levels 38.2%, 50.0%, 61.8% and 100%. The arcs are centered on the second control point.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciArc.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciArc.FillEnabled">
+      <summary>
+            Show colored fills between the Fibonacci arcs. If disabled, only the arcs are visible.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciArc.FullCircle">
+      <summary>
+            Show Fibonacci arcs as full circle.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciArc.LabelColor">
+      <summary>
+            Gets or sets the color of the labels.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciArc.LabelDistance">
+      <summary>
+            Label distance to the arc lines in pixels.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciArc.LimitYToStackSegment">
+      <summary>
+            Arc lines are clipped outside the main segment, and not shown on segment indicators.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciArc.LineColor">
+      <summary>
+            Gets or sets the color of the trend line and the arcs.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciArc.LineWidth">
+      <summary>
+            Gets or sets the width of the trend line and the arcs.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciArc.Magnetic">
+      <summary>
+            Fibonacci Arc is attached to the nearest OHLC-data value in vertical direction.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciFan">
+      <summary>
+            Draws a trend line between two control points, then several Fibonacci fan lines starting from the first
+            point and crossing an “invisible” vertical line at the X-value of the second point based on Fibonacci
+            levels at 38.2%, 50.0% and 61.8%.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciFan.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciFan.FillEnabled">
+      <summary>
+            Show colored fills between the Fibonacci lines. If disabled, only the lines are visible.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciFan.LabelColor">
+      <summary>
+            Gets or sets the color of the labels.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciFan.LabelDistance">
+      <summary>
+            Label distance to the Fibonacci lines in pixels.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciFan.LimitYToStackSegment">
+      <summary>
+            Fan lines are clipped outside the main segment, and not shown on segment indicators.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciFan.LineColor">
+      <summary>
+            Gets or sets the color of the fan lines.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciFan.LineWidth">
+      <summary>
+            Gets or sets the width of the fan lines.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciFan.Magnetic">
+      <summary>
+            Fibonacci Fan is attached to the nearest OHLC-data value in vertical direction.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciRetracement">
+      <summary>
+            Draws a trend line between two control points, then several horizontal retracement lines based on
+            selected price range(height) of the trendline. The retracement lines are drawn at Fibonacci levels of
+            38.2%, 50.0% and 61.8%.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciRetracement.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciRetracement.FillEnabled">
+      <summary>
+            Show colored fills between the Fibonacci lines. If disabled, only the lines are visible.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciRetracement.LabelColor">
+      <summary>
+            Gets or sets the color of the labels.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciRetracement.LabelDistance">
+      <summary>
+            Label distance to the Fibonacci lines in pixels.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciRetracement.LimitYToStackSegment">
+      <summary>
+            Fibonacci lines are clipped outside the main segment, and not shown on segment indicators.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciRetracement.LineColor">
+      <summary>
+            Gets or sets the color of the trend line and the retracements.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciRetracement.LineWidth">
+      <summary>
+            Gets or sets the line width of the trend line and the retracements.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FibonacciRetracement.Magnetic">
+      <summary>
+            Fibonacci Retracement is attached to the nearest OHLC-data value in vertical direction.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.DrawingTools.FreehandAnnotation">
+      <summary>
+            Draws a polygon of any shape based on the mouse movement. A text can be shown inside the polygon.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DrawingTools.FreehandAnnotation.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FreehandAnnotation.AnnotationText">
+      <summary>
+            Gets or sets the text of the annotation.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FreehandAnnotation.BorderColor">
+      <summary>
+            Gets or sets the border color of the annotation.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FreehandAnnotation.BorderWidth">
+      <summary>
+            Gets or sets the border width.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FreehandAnnotation.FillColor">
+      <summary>
+            Gets or sets the color of the annotation.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FreehandAnnotation.FillEnabled">
+      <summary>
+            Show colored fill. If disabled, only the border line will be visible.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FreehandAnnotation.FontSize">
+      <summary>
+            Font size of the annotation text
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FreehandAnnotation.LimitYToStackSegment">
+      <summary>
+            The annotation is clipped outside the main segment, and not shown on segment indicators.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FreehandAnnotation.ShowText">
+      <summary>
+            Gets or sets the visibility of the text.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.FreehandAnnotation.TextColor">
+      <summary>
+            The color of the annotation text
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.DrawingTools.LinearRegressionChannel">
+      <summary>
+            Calculates and draws a linear regression line between two control points. Then draws two channel
+            lines, one above and one below the regression line based on the selected channel type.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DrawingTools.LinearRegressionChannel.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.LinearRegressionChannel.ChannelType">
+      <summary>
+            Linear regression channel type
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.LinearRegressionChannel.FillEnabled">
+      <summary>
+            Show colored fills between the channel lines.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.LinearRegressionChannel.LimitYToStackSegment">
+      <summary>
+            Channel lines are clipped outside the main segment, and not shown on segment indicators.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.LinearRegressionChannel.LineColor">
+      <summary>
+            Gets or sets the color of the channel lines.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.LinearRegressionChannel.LineWidth">
+      <summary>
+            Gets or sets the width of the channel lines.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.LinearRegressionChannel.NumberOfStandardDeviations">
+      <summary>
+            The number of standard deviations between the regression trendline and the channel lines. Used when LinearRegressionChannelType is set to StandardDeviations.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.LinearRegressionChannel.ShowExtensions">
+      <summary>
+            Show dashed extension lines for the channel.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.DrawingTools.TrendLine">
+      <summary>
+            Draws a straight line between two control points.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.DrawingTools.TrendLine.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.TrendLine.LimitYToStackSegment">
+      <summary>
+            Trend line is clipped outside the main segment, and not shown on segment indicators.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.TrendLine.LineColor">
+      <summary>
+            Gets or sets the color of the Trend line.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.TrendLine.LineWidth">
+      <summary>
+            Gets or sets the width of the Trend line.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.TrendLine.Magnetic">
+      <summary>
+            Trend line is attached to the nearest OHLC-data value in vertical direction.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.DrawingTools.TrendLine.ShowExtensions">
+      <summary>
+            Show dashed extension lines for the Trend line.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.Routines.ChartRoutines">
+      <summary>
+            Helper methods for handling various internal chart updates and calculations.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.ChartRoutines.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WinForms.Routines.ChartRoutines</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.ChartRoutines.DisposeAllAndClear``1(System.Collections.Generic.List{``0})">
+      <summary>
+            Dispose items and clear the list
+            </summary>
+      <param name="list">List to be disposed and cleared</param>
+      <typeparam name="T">Chart object type</typeparam>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.ChartRoutines.GetIso8601WeekOfYear(System.DateTime)">
+      <summary>
+            Gets the Iso8601 week of year. This presumes that weeks start with Monday. Week 1 is the 1st week of the year with a Thursday in it.
+            </summary>
+      <param name="time">Date time</param>
+      <returns>Week of the year</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.ChartRoutines.GetListOfYAxesInSegmentMouseIsOverOf(Arction.WinForms.Charting.Views.ViewXY.ViewXY,System.Drawing.Point,System.Int32@)">
+      <summary>
+            Get list of Y axes of the segment mouse is currently over of
+            </summary>
+      <param name="view">View</param>
+      <param name="point">Point</param>
+      <param name="segmentIndex">Index of segment the mouse is over of. If over none, return -1</param>
+      <returns>List of Y axes. If no matching segment or axes found, returns empty list</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.ChartRoutines.GetSeriesOfSegmentMouseIsOverOf(Arction.WinForms.Charting.Views.ViewXY.ViewXY,System.Drawing.Point,System.Int32@)">
+      <summary>
+             Get list of series of the segment mouse is currently over of
+            </summary>
+      <param name="view">View</param>
+      <param name="point">Point</param>
+      <param name="segmentIndex">Index of segment the mouse is over of. If over none, return -1</param>
+      <returns>List of series. If no matching segment or series found, returns empty list</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.ChartRoutines.MakeLineCollectionVerticalBars(System.Double,System.Collections.Generic.List{Arction.WinForms.Charting.PointDouble2D})">
+      <summary>
+            Make vertical bars from base level to given points
+            </summary>
+      <param name="baseLevel">Base level</param>
+      <param name="points">XY points</param>
+      <returns>Vertical bars</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.ChartRoutines.MakeLineCollectionVerticalBars(System.Double,System.Double[],System.Double[])">
+      <summary>
+            Make vertical bars from base level to given Y values
+            </summary>
+      <param name="baseLevel">Base level</param>
+      <param name="xValues">X values</param>
+      <param name="yValues">Y values</param>
+      <returns>Vertical bars</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.ChartRoutines.ToKMB(System.Double)">
+      <summary>
+            Format value to thousands(K), Millions(M), and Billions(B) 
+            </summary>
+      <param name="value">Value to format</param>
+      <returns>Formatted value</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.ChartRoutines.UpdateLineAndControlPointStyle(Arction.WinForms.Charting.SeriesXY.PointLineSeriesBase,System.Double,System.Drawing.Color)">
+      <summary>
+            Set line style and color, and ControlPoints size and color according to given line style and width
+            </summary>
+      <param name="series">Series to apply the settings to</param>
+      <param name="lineWidth">Line width</param>
+      <param name="lineColor">Line color</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.ChartRoutines.UpdateLineAndPointStyle(Arction.WinForms.Charting.SeriesXY.PointLineSeriesBase,System.Double,System.Drawing.Color)">
+      <summary>
+            Set line style and color, and points size and color according to given line style and width
+            </summary>
+      <param name="series">Series to apply the settings to</param>
+      <param name="lineWidth">Line width</param>
+      <param name="lineColor">Line color</param>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.Routines.ColorRoutines">
+      <summary>
+            Helper methods for handling various color calculations.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.ColorRoutines.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WinForms.Routines.ColorRoutines</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.ColorRoutines.CalculateLuminance(System.Drawing.Color)">
+      <summary>
+            Calculates luminance of color, a subjective brightness.
+            </summary>
+      <param name="color">Color</param>
+      <returns>Luminance in range of 0...1</returns>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.Routines.OhlcDataRoutines">
+      <summary>
+            Helper routines for OHLC data manipulation  
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.OhlcDataRoutines.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WinForms.Routines.OhlcDataRoutines</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.OhlcDataRoutines.GetCloseValuesFromOhlcData(Arction.CustomControls.Trader.WinForms.OhlcData[])">
+      <summary>
+            Gets Close values from data.
+            </summary>
+      <param name="data">Input OHLC data</param>
+      <returns>Close values in the same order as in array given</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.OhlcDataRoutines.GetHighValuesFromOhlcData(Arction.CustomControls.Trader.WinForms.OhlcData[])">
+      <summary>
+            Gets High values from data
+            </summary>
+      <param name="data">Input OHLC data</param>
+      <returns>High values in the same order as in array given</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.OhlcDataRoutines.GetLowValuesFromOhlcData(Arction.CustomControls.Trader.WinForms.OhlcData[])">
+      <summary>
+            Gets Low values from data
+            </summary>
+      <param name="data">Input OHLC data</param>
+      <returns>Low values in the same order as in array given</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.OhlcDataRoutines.GetMinimumIntervalSeconds(Arction.CustomControls.Trader.WinForms.OhlcData[])">
+      <summary>
+            Gets data interval in seconds. 
+            If there are gaps in the data, e.g. non-trading days, it removes their affect, and targets in the actual trading days.  
+            </summary>
+      <param name="data">Input OHLC data</param>
+      <returns>Minimum interval in seconds</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.OhlcDataRoutines.GetOpenInterestValuesFromOhlcData(Arction.CustomControls.Trader.WinForms.OhlcData[])">
+      <summary>
+            Gets Open Interest values from data
+            </summary>
+      <param name="data">Input OHLC data</param>
+      <returns>Open Interest values in the same order as in array given</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.OhlcDataRoutines.GetOpenValuesFromOhlcData(Arction.CustomControls.Trader.WinForms.OhlcData[])">
+      <summary>
+            Gets Open values from data
+            </summary>
+      <param name="data">Input OHLC data</param>
+      <returns>Open values in the same order as in array given</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.OhlcDataRoutines.GetVolumeValuesFromOhlcData(Arction.CustomControls.Trader.WinForms.OhlcData[])">
+      <summary>
+            Gets Volume values from data
+            </summary>
+      <param name="data">Input OHLC data</param>
+      <returns>Volume values in the same order as in array given</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.OhlcDataRoutines.GetXValuesAsXAxisValues(Arction.CustomControls.Trader.WinForms.OhlcData[],Arction.WinForms.Charting.Axes.AxisX,System.Int32,System.Int32)">
+      <summary>
+            Get X values as XAxis values from given OHLC data. 
+            </summary>
+      <param name="data">Input OHLC data</param>
+      <param name="xAxis">X axis</param>
+      <param name="startIndex">Start index</param>
+      <param name="count">Count to process</param>
+      <returns>X values array</returns>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.Routines.TechnicalAnalysisRoutines">
+      <summary>
+            Helper routines for technical analysis calculations. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.TechnicalAnalysisRoutines.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Arction.CustomControls.Trader.WinForms.Routines.TechnicalAnalysisRoutines</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.TechnicalAnalysisRoutines.CalculateAroon(System.Double[],System.Double[],System.Int32,System.Double[]@,System.Double[]@)">
+      <summary>
+            Calculates Aroon indicator using given number of time periods (n). Returns both Aroon Up and Aroon Down values.
+            </summary>
+      <param name="highValues">OHLC data high values.</param>
+      <param name="lowValues">OHLC data low values.</param>
+      <param name="n">Period count.</param>
+      <param name="aroonUpValues">Aroon Up values.</param>
+      <param name="aroonDownValues">Aroon Down values.</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.TechnicalAnalysisRoutines.CalculateAverageTrueRange(System.Double[],System.Double[],System.Double[],System.Int32)">
+      <summary>
+            Calculates Average True Range values using given number of time periods (n).
+            </summary>
+      <param name="closeValues">OHLC data close values</param>
+      <param name="highValues">OHLC data high values</param>
+      <param name="lowValues">OHLC data low values</param>
+      <param name="n">Period count</param>
+      <returns>ATR values</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.TechnicalAnalysisRoutines.CalculateExponentialMovingAverage(System.Double[],System.Int32)">
+      <summary>
+            Calculate Exponential Moving Average using given averaging frame length (window length, or N) 
+            </summary>
+      <param name="values">Input values</param>
+      <param name="averagingFrameLength">Count of values to use in initial round</param>
+      <returns>Averaged values</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.TechnicalAnalysisRoutines.CalculateMoneyFlowIndex(System.Double[],System.Double[],System.Double[],System.Double[],System.Int32)">
+      <summary>
+            Calculates Money Flow Index values using given number of time periods (n).
+            </summary>
+      <param name="closeValues">OHLC data close values</param>
+      <param name="highValues">OHLC data high values</param>
+      <param name="lowValues">OHLC data low values</param>
+      <param name="volumes">Volume values</param>
+      <param name="n">Period count</param>
+      <returns>MFI values</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.TechnicalAnalysisRoutines.CalculateRateOfChange(System.Double[],System.Int32)">
+      <summary>
+            Calculates Rate of Change values.
+            </summary>
+      <param name="closeValues">OHLC data close values.</param>
+      <param name="n">Period count.</param>
+      <returns>Rate of Change values.</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.TechnicalAnalysisRoutines.CalculateRelativeStrengthIndex(System.Double[],System.Int32)">
+      <summary>
+            Calculate Relative Strength Index (RSI) using given number of time periods, N  
+            </summary>
+      <param name="values">Input values, typically Close values.</param>
+      <param name="n">Count of values over which the smoothing calculation is applied</param>
+      <returns>RSI values</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.TechnicalAnalysisRoutines.CalculateSimpleMovingAverage(System.Double[],System.Int32)">
+      <summary>
+            Calculate Simple Moving Average using given averaging frame length (window length, or period count N) 
+            </summary>
+      <param name="values">Input values</param>
+      <param name="averagingFrameLength">The number of values to use in averaging each round</param>
+      <returns>Averaged values</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.TechnicalAnalysisRoutines.CalculateStochasticOscillatorValues(System.Double[],System.Double[],System.Double[],System.Int32,System.Double[]@,System.Double[]@)">
+      <summary>
+            Calculate Stochastic Oscillator values using given number of time periods (n)
+            </summary>
+      <param name="closeValues">OHLC close values</param>
+      <param name="highValues">OHLC high values</param>
+      <param name="lowValues">OHLC low values</param>
+      <param name="n">Period count</param>
+      <param name="soValues">Stochastic oscillator values</param>
+      <param name="maValues">3 day moving average values based on stochastic oscillator values</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.TechnicalAnalysisRoutines.CalculateTripleMovingAverage(System.Double[],System.Int32,System.Double[]@,System.Double[]@)">
+      <summary>
+            Calculates Triple Exponential Average (TRIX) values using given number of time periods (n).
+            </summary>
+      <param name="closeValues">OHLC data close values.</param>
+      <param name="n">Period count.</param>
+      <param name="trixValues">TRIX values.</param>
+      <param name="signalValues">9-day EMA values based on TRIX.</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.TechnicalAnalysisRoutines.CalculateWeightedMovingAverage(System.Double[],System.Int32)">
+      <summary>
+            Calculate Weighted Moving Average using given averaging frame length (window length, or N) 
+            </summary>
+      <param name="values">Input values</param>
+      <param name="averagingFrameLength">Count of values to use in each round</param>
+      <returns>Averaged values</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.TechnicalAnalysisRoutines.CalculateWilliamsPercentRangeValues(System.Double[],System.Double[],System.Double[],System.Int32)">
+      <summary>
+            Calculates Williams Percent Range values.
+            </summary>
+      <param name="closeValues">OHLC data close values.</param>
+      <param name="highValues">OHLC data high values.</param>
+      <param name="lowValues">OHLC data low values.</param>
+      <param name="n">Period count.</param>
+      <returns>Williams Percent Range values.</returns>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.Routines.TechnicalAnalysisRoutines.StandardDeviation(System.Double[])">
+      <summary>
+            Calculates standard deviation of values.
+            </summary>
+      <param name="values">Values</param>
+      <returns>Stardard deviation</returns>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.Aroon">
+      <summary>
+            The Aroon Indicator identifies trend changes in the price. It also reveals the strength of that trend.
+            Consists of two lines: Aroon Up measuring the uptrend strength and Aroon Down measuring the downtrend strength.
+            Appears as a segment below the main price chart. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.Aroon.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.Aroon.AroonDownLineColor">
+      <summary>
+            Gets or sets the color of the Aroon Down line.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.Aroon.AroonUpLineColor">
+      <summary>
+            Gets or sets the color of the Aroon Up line.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.Aroon.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.Aroon.LineWidth">
+      <summary>
+            Gets or sets the width of the Aroon lines.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.Aroon.PeriodCount">
+      <summary>
+            The number of time periods used to calculate Aroon indicator, set to 25 days by default.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.AverageTrueRange">
+      <summary>
+            Average True Range measures market volatility by calculating the average of true ranges over a given time range.
+            Appears as a segment below the main price chart. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.AverageTrueRange.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.AverageTrueRange.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.AverageTrueRange.LineColor">
+      <summary>
+            Gets or sets the color of the Average True Range line.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.AverageTrueRange.LineWidth">
+      <summary>
+            Gets or sets the width of the Average True Range line.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.AverageTrueRange.PeriodCount">
+      <summary>
+            The number of time periods in the Average True Range calculation, set to 14 days by default.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.BollingerBand">
+      <summary>
+            Bollinger Band® is a technical analysis tool defined by a set of lines plotted typically two standard deviations
+            (up and down) away from a simple moving average (SMA) of the security's price. 
+            Many traders believe the closer the prices move to the upper band, the more overbought the market, 
+            and the closer the prices move to the lower band, the more oversold the market. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.BollingerBand.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.BollingerBand.BorderLineColor">
+      <summary>
+            The color of the border of the band
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.BollingerBand.BorderLineWidth">
+      <summary>
+            Gets or sets the width of the border of the band.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.BollingerBand.FillColor">
+      <summary>
+            The color of the Bollinger Band
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.BollingerBand.FillType">
+      <summary>
+            Bollinger Band fill type
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.BollingerBand.NumberOfStandardDeviations">
+      <summary>
+            Number of Standard Deviations. 
+            Upper band is SD * this value above Simple Moving Average line, 
+            and Lower band respectively below.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.ExponentialMovingAverage">
+      <summary>
+            Exponential moving average (EMA)
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.ExponentialMovingAverage.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.Indicator">
+      <summary>
+            Base class for all indicators
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.Indicator.#ctor(Arction.CustomControls.Trader.WinForms.TradingChart,Arction.WinForms.Charting.Views.ViewXY.ViewXY)">
+      <summary>
+            Indicator
+            </summary>
+      <param name="ownerChart">Owner trading chart</param>
+      <param name="ownerView">Owner view</param>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.Indicator.ID">
+      <summary>
+            ID string for the indicator
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.Indicator.Title">
+      <summary>
+            Title shown in the data cursor box, and near Y-axes.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.Indicator.Update(Arction.CustomControls.Trader.WinForms.IndicatorUpdateFlags)">
+      <summary>
+            Notify owner to update this indicator with selected flags 
+            </summary>
+      <param name="flags">Update flags</param>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MoneyFlowIndex">
+      <summary>
+            The Money Flow Index (MFI) uses price and volume data for identifying overbought or oversold signals.
+            It can also be used to spot divergences which warn of a trend change in price. MFI moves between 0 and 100.
+            Unlike many other oscillators such as the Relative Strength Index (RSI), the Money Flow Index incorporates both price and volume data.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MoneyFlowIndex.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MoneyFlowIndex.Color">
+      <summary>
+            Gets or sets the color of the Money Flow Index line.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MoneyFlowIndex.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MoneyFlowIndex.LineWidth">
+      <summary>
+            Gets or sets the width of the Money Flow Index line.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MoneyFlowIndex.OverboughtColor">
+      <summary>
+            Gets or sets the color of the overbought limit.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MoneyFlowIndex.OverboughtRange">
+      <summary>
+            Overbought range. Values above this are considered overbought. Default value is 80.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MoneyFlowIndex.OversoldColor">
+      <summary>
+            Gets or sets the color of the oversold limit.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MoneyFlowIndex.OversoldRange">
+      <summary>
+            Oversold range. Values below this are considered oversold. Default value is 20.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MoneyFlowIndex.PeriodCount">
+      <summary>
+            The number of time periods in the Money Flow Index calculation, set to 14 days by default.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverage">
+      <summary>
+            Moving average (MA) indicator base class 
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverage._xAxis">
+      <summary>
+            X-axis for the Moving Average
+            </summary>
+    </member>
+    <member name="F:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverage._yAxis">
+      <summary>
+            Y-axis for the Moving Average
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverage.Color">
+      <summary>
+            The color of the Moving Average line
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverage.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverage.LineWidth">
+      <summary>
+            Gets or sets the width of the Moving Average line.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverage.PeriodCount">
+      <summary>
+            The number of time periods in the Moving Average calculation, set to 10 by default.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverage.TrackIndicator">
+      <summary>
+            Allow Data Cursor to track this indicator.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverageConvergenceDivergence">
+      <summary>
+            Moving Average Convergence Divergence indicator (MACD). 
+            Appears below main price chart. 
+            
+            MACD line is the difference between Exponentially weighted Moving Average (EMA) of Short period data, and EMA of Long period data.  
+            That is: EMA(price short period) - EMA(price long period). 
+            
+            Signal line is Signal period EMA of MACD.   
+            
+            Histogram shows the difference between MACD and Signal. That is: MACD - Signal. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverageConvergenceDivergence.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverageConvergenceDivergence.BaseLineColor">
+      <summary>
+            Gets or sets the base line color.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverageConvergenceDivergence.HistogramNegativeStrongColor">
+      <summary>
+            Gets or sets the negative strong color for Histogram.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverageConvergenceDivergence.HistogramNegativeWeakColor">
+      <summary>
+            Gets or sets the negative weak color for Histogram.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverageConvergenceDivergence.HistogramPositiveStrongColor">
+      <summary>
+            Gets or sets the positive strong color for Histogram.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverageConvergenceDivergence.HistogramPositiveWeakColor">
+      <summary>
+            Gets or sets the positive weak color for Histogram.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverageConvergenceDivergence.HistogramTitle">
+      <summary>
+            Histogram title
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverageConvergenceDivergence.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverageConvergenceDivergence.LongPeriodCount">
+      <summary>
+            Gets or sets the long period count.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverageConvergenceDivergence.MacdLineColor">
+      <summary>
+            Gets or sets the MACD line color.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverageConvergenceDivergence.MacdLineWidth">
+      <summary>
+            Gets or sets the MACD line width.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverageConvergenceDivergence.MacdTitle">
+      <summary>
+            MACD line title
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverageConvergenceDivergence.ShortPeriodCount">
+      <summary>
+            Gets or sets the short period count.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverageConvergenceDivergence.SignalLineColor">
+      <summary>
+            Gets or sets the Signal line color.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverageConvergenceDivergence.SignalLineWidth">
+      <summary>
+            Gets or sets the Signal line width.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverageConvergenceDivergence.SignalPeriodCount">
+      <summary>
+            Gets or sets the period count for Signal.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.MovingAverageConvergenceDivergence.SignalTitle">
+      <summary>
+            Signal line title
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.OpenInterest">
+      <summary>
+            Open interest is the total number of outstanding derivative contracts, 
+            such as options or futures that have not been settled for an asset.
+            The total open interest does not count, nor does total of every buy and sell contract. 
+            Instead, open interest provides a more accurate picture of the options trading activity,
+            and whether money flows into the futures and options market are increasing or decreasing. 
+            Shows as a little chart with a line below main price chart. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.OpenInterest.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.OpenInterest.Color">
+      <summary>
+            Gets or sets the color of the Open Interest line.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.OpenInterest.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.OpenInterest.LineWidth">
+      <summary>
+            Gets or sets the width of the Open Interest line.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.RateOfChange">
+      <summary>
+            Rate of Change indicator measures the price change between the current price and the price a certain number of periods ago.
+            The difference is shown as a percentage. Appears as a segment below the main price chart. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.RateOfChange.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.RateOfChange.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.RateOfChange.LineColor">
+      <summary>
+            Gets or sets the color of the Rate of Change line.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.RateOfChange.LineWidth">
+      <summary>
+            Gets or sets the width of the Rate of Change line.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.RateOfChange.PeriodCount">
+      <summary>
+            The number of time periods in the Rate of Change calculation, set to 9 days by default.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.RelativeStrengthIndex">
+      <summary>
+            Relative Strength Index indicator (RSI)
+            Appears as a small chart below main price chart. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.RelativeStrengthIndex.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.RelativeStrengthIndex.Color">
+      <summary>
+            Indicator color between the threshold levels
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.RelativeStrengthIndex.HighColor">
+      <summary>
+            Get or set the color of the indicator above HighThreshold level.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.RelativeStrengthIndex.HighThreshold">
+      <summary>
+            High threshold level, 70 percent by default
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.RelativeStrengthIndex.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.RelativeStrengthIndex.LineWidth">
+      <summary>
+            Gets or sets the width of the RSI lines.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.RelativeStrengthIndex.LowColor">
+      <summary>
+            Get or set the color of the indicator below LowThreshold level.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.RelativeStrengthIndex.LowThreshold">
+      <summary>
+            Low threshold level, 30 percent by default
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.RelativeStrengthIndex.PeriodCount">
+      <summary>
+            The number of time periods in the RSI calculation, set to 14-day RSI by default.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.SegmentIndicator">
+      <summary>
+            Segment indicator. Indicator appears as a small chart segment below the main price chart
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.SegmentIndicator.#ctor(Arction.CustomControls.Trader.WinForms.TradingChart,Arction.WinForms.Charting.Views.ViewXY.ViewXY)">
+      <summary>
+            Constructor
+            </summary>
+      <param name="ownerChart">Owner chart</param>
+      <param name="ownerView">Owner view</param>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.SegmentIndicator.SegmentHeight">
+      <summary>
+            Segment height, relative to other segment values
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.SimpleMovingAverage">
+      <summary>
+            Simple moving average (SMA)
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.SimpleMovingAverage.#ctor">
+      <summary>
+            Constructor 
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.StochasticOscillator">
+      <summary>
+            Stochastic Oscillator indicator. Compares a closing price to a range of prices over a time period.
+            Appears as a segment below the main price chart. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.StochasticOscillator.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.StochasticOscillator.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.StochasticOscillator.LineWidth">
+      <summary>
+            Gets or sets the width of the Oscillator and Moving Average lines.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.StochasticOscillator.MovingAverageLineColor">
+      <summary>
+            Gets or sets the color of the Moving Average line.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.StochasticOscillator.OscillatorLineColor">
+      <summary>
+            Gets or sets the color of the Oscillator line.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.StochasticOscillator.OverboughtColor">
+      <summary>
+            Gets or sets the color of the overbought limit.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.StochasticOscillator.OverboughtRange">
+      <summary>
+            Overbought range. Values above this are considered overbought. Default value is 80.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.StochasticOscillator.OversoldColor">
+      <summary>
+            Gets or sets the color of the oversold limit.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.StochasticOscillator.OversoldRange">
+      <summary>
+            Oversold range. Values below this are considered oversold. Default value is 20.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.StochasticOscillator.PeriodCount">
+      <summary>
+            The number of time periods in the Stochastic Oscillator calculation, set to 14 days (fast oscillator) by default.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.TripleExponentialAverage">
+      <summary>
+            Triple Exponential Average (TRIX) is a triple exponentially smoothed moving average shown as a percentage change.
+            It is designed to filter out unimportant price changes. Appears as a segment below the main price chart. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.TripleExponentialAverage.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.TripleExponentialAverage.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.TripleExponentialAverage.LineColor">
+      <summary>
+            Gets or sets the color of the Triple Exponential Average line.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.TripleExponentialAverage.LineWidth">
+      <summary>
+            Gets or sets the width of the Triple Exponential Average line.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.TripleExponentialAverage.PeriodCount">
+      <summary>
+            The number of time periods used to calculate Triple Exponential Average, set to 14 days by default.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.TripleExponentialAverage.ShowSignalLine">
+      <summary>
+            Show signal line (9-day EMA) based on the Triple Exponential Average line.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.TwoHistogramsAndLine">
+      <summary>
+            Custom Indicator.
+            Allows showing a line and two histograms in a separate segment based on the given data values.
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.TwoHistogramsAndLine.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.TwoHistogramsAndLine.AddHistogram(System.DateTime[],System.Double[],System.Double,System.Drawing.Color,System.Int32)">
+      <summary>
+            Adds a histogram to the indicator.
+            </summary>
+      <param name="xValues">Histogram X-values as DateTimes</param>
+      <param name="yValues">Y-values of the histogram bars</param>
+      <param name="barWidth">Width of the histogram bars</param>
+      <param name="color">Color of the histogram bars</param>
+      <param name="histogramIndex">Histogram to be updated.</param>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.TwoHistogramsAndLine.AddLine(System.DateTime[],System.Double[],System.Double,System.Drawing.Color)">
+      <summary>
+            Adds a line to the indicator.
+            </summary>
+      <param name="xValues">Line X-values as DateTimes</param>
+      <param name="yValues">Y-values of the line</param>
+      <param name="lineWidth">Width of the line</param>
+      <param name="color">Color of the line</param>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.TwoHistogramsAndLine.HistogramColor1">
+      <summary>
+            Gets or sets the bar color of the first histogram.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.TwoHistogramsAndLine.HistogramColor2">
+      <summary>
+            Gets or sets the bar color of the second histogram.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.TwoHistogramsAndLine.HistogramsStacked">
+      <summary>
+            Gets or sets whether the histograms are stacked.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.TwoHistogramsAndLine.HistogramTitle1">
+      <summary>
+            Gets or sets the title of the first histogram.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.TwoHistogramsAndLine.HistogramTitle2">
+      <summary>
+            Gets or sets the title of the second histogram.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.TwoHistogramsAndLine.HistogramWidth1">
+      <summary>
+            Gets or sets the bar width of the first histogram.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.TwoHistogramsAndLine.HistogramWidth2">
+      <summary>
+            Gets or sets the bar width of the second histogram.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.TwoHistogramsAndLine.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.TwoHistogramsAndLine.LineColor">
+      <summary>
+            Gets or sets the color of the indicator line.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.TwoHistogramsAndLine.LineSeriesTitle">
+      <summary>
+            Gets or sets the title of the indicator line.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.TwoHistogramsAndLine.LineWidth">
+      <summary>
+            Gets or sets the width of the indicator line.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.WeightedMovingAverage">
+      <summary>
+            Weighted moving average (WMA) 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.WeightedMovingAverage.#ctor">
+      <summary>
+            Constructor without parameters
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.WilliamsPercentRange">
+      <summary>
+            Williams Percent Range, also known as Williams %R, measures overbought and oversold levels
+            by comparing the current closing price to the high-low range over a specific time period.
+            Appears as a segment below the main price chart. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.WilliamsPercentRange.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.WilliamsPercentRange.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.WilliamsPercentRange.LineColor">
+      <summary>
+            Gets or sets the color of the indicator line.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.WilliamsPercentRange.LineWidth">
+      <summary>
+            Gets or sets the width of the indicator line.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.WilliamsPercentRange.OverboughtColor">
+      <summary>
+            Gets or sets the color of the overbought limit.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.WilliamsPercentRange.OverboughtRange">
+      <summary>
+            Overbought range. Values above this are considered overbought. Default value is -20.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.WilliamsPercentRange.OversoldColor">
+      <summary>
+            Gets or sets the color of the oversold limit.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.WilliamsPercentRange.OversoldRange">
+      <summary>
+            Oversold range. Values below this are considered oversold. Default value is -80.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.WilliamsPercentRange.PeriodCount">
+      <summary>
+            The number of time periods in the William %R calculation, set to 14 days by default.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.Volume">
+      <summary>
+            Volume is the number of traded securities over a certain time period. 
+            Shows as a small chart below the main price chart. 
+            </summary>
+    </member>
+    <member name="M:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.Volume.#ctor">
+      <summary>
+            Constructor
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.Volume.Color">
+      <summary>
+            Gets or sets the color of the Volume indicator.
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TechnicalIndicators.Volume.LimitYToStackSegment">
+      <summary>
+            Indicator is clipped outside the segment it belongs to.
+            </summary>
+    </member>
+    <member name="T:Arction.CustomControls.Trader.WinForms.TradingDataCursors.DataCursor">
+      <summary>
+            A 'trading' data cursor class 
+            </summary>
+    </member>
+    <member name="P:Arction.CustomControls.Trader.WinForms.TradingDataCursors.DataCursor.OhlcField">
+      <summary>
+            OHLC field to observe, Open / High / Low / Close
+            </summary>
+    </member>
+  </members>
+</doc>
