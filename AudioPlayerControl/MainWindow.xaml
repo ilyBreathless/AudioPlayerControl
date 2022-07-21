@@ -5,29 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AudioPlayerControl"
         mc:Ignorable="d" 
-        Title="Audio Player" Height="600" Width="850" Background="AntiqueWhite">
+        Title="Audio Player" Height="600" Width="960" Background="AntiqueWhite">
     <Grid>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,300,0">
-            <TextBlock FontSize="18" Text="File name:"></TextBlock>
-            <TextBlock x:Name ="TBFileName" FontSize="16" Background ="White" Width="260"/>
-            <Button Content="Open" Click="BT_Click_Open" Margin="10,0,0,0"/>
-        </StackPanel>
-        <StackPanel Margin="0,100,0,0" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <Button FontSize="18" Content="Play" Width="100" Margin="10" Click="BT_Click_Play"/>
-            <Button FontSize="18" Content="Pause" Width="100" Margin="10" Click="BT_Click_Pause"/>
-            <Button FontSize="18" Content="Stop" Width="100" Margin="10" Click="BT_Click_Stop"/>
-            <Button x:Name ="btloop" Click="BT_Click_loop" FontSize="18" Content="Loop" Width="100" Margin="10" />
-        </StackPanel>
-        <StackPanel Orientation="Vertical" VerticalAlignment="Top" HorizontalAlignment="Right">
-            <TextBlock Text="Speed" FontSize="20"></TextBlock>
-            <Slider Height="20" Value="1" Name="SliderSpeed" Width="300" Minimum ="0" Maximum="2" ValueChanged="Slider_ValueChanged" TickPlacement ="BottomRight" TickFrequency="5" />
-            <TextBlock  Text="Volume" FontSize="20" ></TextBlock>
-            <Slider Height="20" Value="0.5" Name="SliderVolume" Width="300" Minimum ="0" Maximum="1" ValueChanged="SliderVolume_ValueChanged" TickPlacement ="BottomRight" TickFrequency="5" />
-            <TextBlock x:Name="time" FontSize="20" Text="00:00"></TextBlock>
-            <Slider Height="20" Value="0" Name="SliderDuration" Width="300" Minimum ="0"  ValueChanged="SliderDuration_ValueChanged" TickPlacement ="BottomRight" IsHitTestVisible="False" TickFrequency="5"/>
             
-            
+           
         </StackPanel>
+      
+      
         <local:GraphTry Margin="0,152,0.2,0.4"></local:GraphTry>
     </Grid>
 </Window>

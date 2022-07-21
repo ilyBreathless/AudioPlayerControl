@@ -25,6 +25,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Collections.Generic;
+using System.Windows.Threading;
 
 namespace AudioPlayerControl
 {
@@ -33,29 +34,29 @@ namespace AudioPlayerControl
     /// </summary>
     public partial class GraphTry : UserControl, IDisposable
     {
-        // Chart control for waveform data.
+        
         private LightningChartUltimate _chart;
 
-        // Waveform data.
+     
         private double[][] _audioData;
 
-        // Sampling frequency of wav file.
+       
         private int _samplingFrequency;
 
-        // Channel count of wav file.
+        
         private int _channelCount;
 
-        // File name of data.
+      
         private string _fileName;
 
-        // Data lenght in seconds.
-        private double _dataLength = 0;
-        // Open file dialog.
+     
+        private double _dataLength = 0; 
+       
         private OpenFileDialog _openFileDialog;
         private SignalReader _signalReader;
         private AudioOutput _audioOutput;
         private bool _clean;
-
+        DispatcherTimer timer = new DispatcherTimer();
         /// <summary>
         /// Default constructor.
         /// </summary>
@@ -63,19 +64,29 @@ namespace AudioPlayerControl
         {
             _clean = false;
             _openFileDialog = new OpenFileDialog();
+           
             _fileName = Environment.CurrentDirectory + "\\Content\\Whistle_48kHz.wav";
             string deploymentKey = "lgCAABW2ij + vBNQBJABVcGRhdGVhYmxlVGlsbD0yMDE5LTA2LTE1I1JldmlzaW9uPTACgD + BCRGnn7c6dwaDiJovCk5g5nFwvJ + G60VSdCrAJ + jphM8J45NmxWE1ZpK41lW1wuI4Hz3bPIpT7aP9zZdtXrb4379WlHowJblnk8jEGJQcnWUlcFnJSl6osPYvkxfq / B0dVcthh7ezOUzf1uXfOcEJ377 / 4rwUTR0VbNTCK601EN6 / ciGJmHars325FPaj3wXDAUIehxEfwiN7aa7HcXH6RqwOF6WcD8voXTdQEsraNaTYbIqSMErzg6HFsaY5cW4IkG6TJ3iBFzXCVfvPRZDxVYMuM + Q5vztCEz5k + Luaxs + S + OQD3ELg8 + y7a / Dv0OhSQkqMDrR / o7mjauDnZVt5VRwtvDYm6kDNOsNL38Ry / tAsPPY26Ff3PDl1ItpFWZCzNS / xfDEjpmcnJOW7hmZi6X17LM66whLUTiCWjj81lpDi + VhBSMI3a2I7jmiFONUKhtD91yrOyHrCWObCdWq + F5H4gjsoP0ffEKcx658a3ZF8VhtL8d9 + B0YtxFPNBQs =";
             LightningChartUltimate.SetDeploymentKey(deploymentKey);
             InitializeComponent();
-
+            timer.Interval = TimeSpan.FromSeconds(0.1);
+            timer.Tick += timer_tick;
             _audioOutput = Resources["audioOutput"] as AudioOutput;
             _signalReader = _audioOutput.DataContext as SignalReader;
-
+            
             CreateChart();
             PrefillAudioDataToChart();
-            Start();
+         //   Start();
             Application.Current.MainWindow.Closing += ApplicationClosingDispose;
         }
+        MediaPlayer mediaPlayer = new MediaPlayer();
+
+        double durTest;
+        double currentTime;
+        double dPositionInSec;
+        double xTime;
+        int samplesCount;
+        double curSoundSpeed;
         private void ApplicationClosingDispose(object sender, System.ComponentModel.CancelEventArgs e)
         {
             if (!_clean)
@@ -91,15 +102,26 @@ namespace AudioPlayerControl
             }
         }
 
-        public void Start()
+        private void timer_tick(object sender, EventArgs e)
         {
+            time.Content = mediaPlayer.Position.ToString(@"mm\:ss");
+            sliderDuration.Value = mediaPlayer.Position.TotalSeconds;
+        }
+        public void Start()
+        {      
             StartPlayback();
         }
 
         public void Stop()
         {
+            sliderDuration.Value = 0;
+            time.Content = "00:00";
             _audioOutput.IsOutputEnabled = false;
             _signalReader.StopRequest();
+            mediaPlayer.Position = new TimeSpan(0, 0, 0);
+            
+            mediaPlayer.Stop();
+            timer.Stop();
         }
 
         /// <summary>
@@ -145,17 +167,17 @@ namespace AudioPlayerControl
 
         private void CreateChart()
         {
-            // Clear any gridChart's children.
+           
             gridChart.Children.Clear();
 
             if (_chart != null)
             {
-                // If a chart is already created, dispose it.
+                
                 _chart.Dispose();
                 _chart = null;
             }
 
-            // Create a new chart.
+            
             _chart = new LightningChartUltimate();
 
             _chart.BeginUpdate();
@@ -171,15 +193,15 @@ namespace AudioPlayerControl
 
             _chart.ViewXY.AxisLayout.YAxesLayout = YAxesLayout.Stacked;
 
-         //  _chart.ViewXY.ZoomPanOptions.WheelZooming = WheelZooming.Horizontal;
+         
 
-            //Set playback cursor 
+           
             LineSeriesCursor cursor = new LineSeriesCursor(_chart.ViewXY, _chart.ViewXY.XAxes[0])
             {
                 Style = CursorStyle.VerticalNoTracking
             };
             cursor.LineStyle.Color = Colors.White;
-          //  cursor.AllowUserInteraction = false;
+          
             cursor.ValueAtXAxis = 0;
             _chart.ViewXY.LineSeriesCursors.Add(cursor);
 
@@ -193,20 +215,20 @@ namespace AudioPlayerControl
         {
             _chart.BeginUpdate();
 
-            //Remove existing series and axes
-            _chart.ViewXY.SampleDataSeries.Clear(); // Remove existing series.
-            _chart.ViewXY.YAxes.Clear();            // Remove existing y-axes.
+            
+            _chart.ViewXY.SampleDataSeries.Clear(); 
+            _chart.ViewXY.YAxes.Clear();            
 
             for (int channel = 0; channel < channelCount; channel++)
             {
-                //Add Y axis for each channel
+               
                 AxisY yAxis = new AxisY(_chart.ViewXY)
                 {
                     AxisColor = DefaultColors.SeriesForBlackBackgroundWpf[channel % DefaultColors.SeriesForBlackBackgroundWpf.Length]
                 };
                 _chart.ViewXY.YAxes.Add(yAxis);
 
-                //Add series for each channel
+                
                 SampleDataSeries sds = new SampleDataSeries(_chart.ViewXY, _chart.ViewXY.XAxes[0], yAxis)
                 {
                     SamplingFrequency = samplingFrequency,
@@ -243,10 +265,10 @@ namespace AudioPlayerControl
 
             _signalReader.ReadAllData(_fileName,
                 out _channelCount, out _samplingFrequency, out _audioData, out markers);
-
+            freqLabel.Content = _samplingFrequency;
             _chart.BeginUpdate();
 
-            //Set series count and sampling frequency
+            
             InitChart(_channelCount, _samplingFrequency);
 
             for (int channel = 0; channel < _channelCount; channel++)
@@ -260,16 +282,22 @@ namespace AudioPlayerControl
 
             _chart.EndUpdate();
         }
-
-        private void StartPlayback()
+       
+        public void StartPlayback()
         {
+            
             buttonStop.IsEnabled = true;
-            buttonStart.IsEnabled = false;
+            buttonStart.IsEnabled = true;
             buttonOpen.IsEnabled = false;
+            buttonOpen.IsEnabled = true;
             _audioOutput.IsEnabled = true;
-
-            _signalReader.OpenFile(_fileName);
-            _signalReader.Start();
+            nameOfFile.Content = _fileName;
+            //  _signalReader.OpenFile(_fileName);
+            // buttonStart.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+          /*  if (buttonStart.IsPressed)
+            {
+                _signalReader.Start();
+            }*/
         }
 
         private void SignalReader_DataGenerated(DataGeneratedEventArgs args)
@@ -278,16 +306,18 @@ namespace AudioPlayerControl
                 new Action<object>(
                     delegate
                     {
-                        // New samples have been read from the the file.
-                        int samplesCount = args.Samples[0].Length;
+                        
+                        samplesCount = args.Samples[0].Length;
 
-                        // Set the current position to chart's LineSeriesCursor.
+                      
                         _chart.BeginUpdate();
-
-                        double dPositionInSec = args.FirstSampleTimeStamp + samplesCount / (double)_samplingFrequency;
-                        dPositionInSec %= _dataLength; // Auto-looping needs to be handled by taking a modulo.
-
-                        _chart.ViewXY.LineSeriesCursors[0].ValueAtXAxis = dPositionInSec;
+                        xTime = args.FirstSampleTimeStamp + samplesCount / (double) _samplingFrequency;
+                        dPositionInSec = args.FirstSampleTimeStamp + samplesCount / (double)_samplingFrequency;
+                        dPositionInSec %= _dataLength; 
+                        dPositionInSec += currentTime;
+                       // _chart.ViewXY.LineSeriesCursors[0].ValueAtXAxis = dPositionInSec;
+                        _chart.ViewXY.LineSeriesCursors[0].ValueAtXAxis = sliderDuration.Value;
+                        
 
                         _chart.EndUpdate();
                     }
@@ -328,15 +358,41 @@ namespace AudioPlayerControl
         private void buttonStop_Click(object sender, RoutedEventArgs e)
         {
             buttonOpen.IsEnabled = true;
+            currentTime = 0;
             buttonStart.IsEnabled = true;
             buttonStop.IsEnabled = false;
             _audioOutput.IsOutputEnabled = false;
-
+            nameOfFile.Content = _fileName;
+            mediaPlayer.Position = new TimeSpan(0, 0, 0);
+            time.Content = "00:00";
+            sliderDuration.Value = 0;
+            mediaPlayer.Stop();
+            timer.Stop();
             _signalReader.StopRequest();
         }
 
         private void buttonStart_Click(object sender, RoutedEventArgs e)
         {
+            //  currentTime = mediaPlayer.Position.TotalSeconds;
+            //currentTime = sliderDuration.Value;
+            //    sliderDuration.Value += mediaPlayer.Position.TotalSeconds;
+            // _chart.ViewXY.LineSeriesCursors[0].ValueAtXAxis = currentTime;
+           
+                _signalReader.Start();
+            
+            if (mediaPlayer.NaturalDuration.HasTimeSpan)
+            {
+                durTest = mediaPlayer.NaturalDuration.TimeSpan.TotalSeconds;
+                sliderDuration.Maximum = durTest;
+            }
+            
+            
+            //  _chart.ViewXY.LineSeriesCursors[0].ValueAtXAxis = currentTime;
+            mediaPlayer.Play();
+            buttonPause.IsEnabled = true;
+        
+            timer.Start();
+            
             StartPlayback();
         }
 
@@ -346,8 +402,10 @@ namespace AudioPlayerControl
             {
                 return;
             }
-
+            buttonStart.IsEnabled = true;
             _fileName = _openFileDialog.FileName;
+            nameOfFile.Content = _fileName;
+            mediaPlayer.Open(new Uri(_fileName));
             if (System.IO.Path.GetExtension(_fileName) == ".sid")
             {
                 _signalReader.Factor = 10.0;
@@ -359,6 +417,69 @@ namespace AudioPlayerControl
 
             PrefillAudioDataToChart();
             StartPlayback();
+        }
+
+        private void buttonPause_Click(object sender, RoutedEventArgs e)
+        {
+            currentTime = 0;
+            mediaPlayer.Pause();
+            currentTime = mediaPlayer.Position.TotalSeconds;
+            //dPositionInSec = currentTime;
+         //   _chart.ViewXY.LineSeriesCursors[0].ValueAtXAxis = currentTime;
+           _signalReader.StopRequest();
+            
+           buttonStart.IsEnabled = true;
+            buttonPause.IsEnabled = false;
+          timer.Stop();
+        }
+
+        private void Slider_VolumeChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (mediaPlayer != null)
+            {
+                mediaPlayer.Volume = volumeSlider.Value;
+            }
+        }
+
+        private void sliderDuration_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+
+        }
+
+        private void renderNewSpeed()
+        {
+            _chart.ViewXY.XAxes[0].ValueType = AxisValueType.Time;
+        }
+        private void SliderSpeed_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            mediaPlayer.SpeedRatio = e.NewValue;
+            curSoundSpeed = e.NewValue;
+            // xTime = mediaPlayer.Position.TotalSeconds;
+           // xTime += 20;
+            //_chart.ViewXY.XAxes[0].DateTimeRange = xTime.ToString();
+            
+           // renderNewSpeed();
+           
+        }
+
+        private void firstLoopValue_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            int.TryParse(firstLoopValue.Text, out int firstLoopTime);
+            if (checkBox1.IsChecked == true)
+            {
+                mediaPlayer.Position = new TimeSpan(0, 0, firstLoopTime);
+            }
+        }
+
+        private void endLoopValue_TextChanged(object sender, TextChangedEventArgs e)
+        {
+          //  int.TryParse(endLoopValue.Text, out int endLoopTime);
+            
+        }
+
+        private void SliderBalance_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            mediaPlayer.Balance = e.NewValue;
         }
     }
 }

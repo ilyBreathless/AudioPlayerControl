@@ -23,21 +23,37 @@
         <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="8">
             <Button Name="buttonOpen" Click="buttonOpen_Click">Open signal file...</Button>
             <Grid Width="8"/>
-            <Button Name="buttonStart" Click="buttonStart_Click">Start</Button>
+            <Button Name="buttonStart" Click="buttonStart_Click" IsEnabled="false">Start</Button>
             <Grid Width="8"/>
-            <Button Name="buttonStop" Click="buttonStop_Click">Stop</Button>
+            <Button Name="buttonPause" Click="buttonPause_Click" IsEnabled="false">Pause</Button>
             <Grid Width="8"/>
-            <CheckBox Content="Loop" Name="checkBox1" IsChecked="{Binding Source={StaticResource ResourceKey=audioOutput}, Path=DataContext.IsLooping}" VerticalContentAlignment="Center" Foreground="White"/>
+            <Button Name="buttonStop" Click="buttonStop_Click" IsEnabled="False">Stop</Button>
+            <Grid Width="8"/>
+            <CheckBox Content="Loop" Name="checkBox1" IsChecked="False" VerticalContentAlignment="Center" Foreground="Black"/>
+            <Label x:Name="nameOfFile" Content="Filename" ></Label>
+            <Label x:Name="freqLabel" Content="" ></Label>
+            <Label x:Name="frequencyLabel" Content="hZ" ></Label>
+            <Label x:Name="loopLabel" Content="Read range of values for looping audio" ></Label>
+            <TextBox x:Name="firstLoopValue" Width="40" Height="20" TextChanged="firstLoopValue_TextChanged" ></TextBox>
+            <Label Content="to" ></Label>
+            <TextBox x:Name="endLoopValue" Width="40" Height="20" TextChanged="endLoopValue_TextChanged"></TextBox>
         </StackPanel>
+       
         <Grid Grid.Row="1" Name="gridAudioOutput">
             <StackPanel Orientation="Horizontal">
-                <Label Foreground="White">Volume</Label>
-                <Slider Maximum="100" SmallChange="1" LargeChange="10" Width="128"
-					Value="{Binding Source={StaticResource ResourceKey=audioOutput}, Path=Volume}" Margin="0" />
-                <Label Margin="20,0,0,0" Foreground="White">Balance</Label>
-                <Slider Maximum="50" Minimum="-50" SmallChange="1" LargeChange="10" Width="128"
+                <Label Foreground="Black">Volume</Label>
+                <Slider Minimum ="0" Maximum="1" Name="volumeSlider"  Width="128"
+					Value="1" ValueChanged="Slider_VolumeChanged" Margin="0" />
+                <Label Margin="20,0,0,0" Foreground="Black">Balance</Label>
+                <Slider ValueChanged="SliderBalance_ValueChanged" Maximum="50" Minimum="-50" SmallChange="1" LargeChange="10" Width="128"
 					Value="{Binding Source={StaticResource ResourceKey=audioOutput}, Path=Balance}"
 				/>
+                <Label Name="time" Margin="20,0,0,0" Foreground="Black">00:00</Label>
+                <Slider Name="sliderDuration" Minimum="0" SmallChange="1" LargeChange="10" Width="128"
+					Value="0" ValueChanged="sliderDuration_ValueChanged"
+				/>
+                <Label Name="Speed" Margin="20,0,0,0" Foreground="Black">Speed</Label>
+                <Slider Height="20" Value="1" Name="SliderSpeed" Width="128" Minimum ="0" Maximum="2" ValueChanged="SliderSpeed_ValueChanged"/>
             </StackPanel>
         </Grid>
         <Grid Grid.Row="2" Name="gridChart"/>

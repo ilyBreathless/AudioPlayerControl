@@ -17,6 +17,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Windows.Threading;
 
+
 namespace AudioPlayerControl
 {
     /// <summary>
@@ -29,7 +30,7 @@ namespace AudioPlayerControl
         {
             InitializeComponent();
             timer.Interval = TimeSpan.FromSeconds(0.1);
-            timer.Tick += timer_tick;
+          //  timer.Tick += timer_tick;
             /*Process proc = new Process();
             proc.StartInfo.FileName = @"C:\Users\user\Downloads\ffmpeg.exe";
             proc.StartInfo.Arguments = "-i \"" + filename + "\" -vn -ar 44100 -ac 1 -f f32le -";
@@ -100,38 +101,40 @@ namespace AudioPlayerControl
                 // to deal with sample_value
             }
         }*/
-        private void timer_tick(object sender, EventArgs e)
+      /*  private void timer_tick(object sender, EventArgs e)
         {
             time.Text = mediaPlayer.Position.ToString(@"mm\:ss");
             SliderDuration.Value = mediaPlayer.Position.TotalSeconds;
-        }
+        }*/
     
-        private void BT_Click_Open(object sender, RoutedEventArgs e)
+        /*public void BT_Click_Open(object sender, RoutedEventArgs e)
         {
             OpenFileDialog fileDialog = new OpenFileDialog
             {
                 Multiselect = false,
-                DefaultExt = ".mp3"
+                DefaultExt = ".wav"
             };
+            
             bool? DialogOk = fileDialog.ShowDialog();
             if (DialogOk == true)
             {
                 filename = fileDialog.FileName;
                 TBFileName.Text = fileDialog.SafeFileName;
                 mediaPlayer.Open(new Uri(filename));
-                /*if (mediaPlayer.NaturalDuration.HasTimeSpan)
+                *//*if (mediaPlayer.NaturalDuration.HasTimeSpan)
                 {
                   //  durTest = mediaPlayer.NaturalDuration.TimeSpan.TotalSeconds;
                     
                     SliderDuration.Maximum = durTest;
-                }*/
-               // SliderDuration.Maximum = durTest;
+                }*//*
+                // SliderDuration.Maximum = durTest;
                 //    sValue.Content = sample_value.ToString();
+                
             }
         }
-
+*/
      
-        private void BT_Click_Play(object sender, RoutedEventArgs e)
+   /*     private void BT_Click_Play(object sender, RoutedEventArgs e)
         {
             if (mediaPlayer.NaturalDuration.HasTimeSpan)
             {
@@ -141,7 +144,7 @@ namespace AudioPlayerControl
             mediaPlayer.Play();
             
             timer.Start();
-        }
+        }*/
 
         private void BT_Click_Pause(object sender, RoutedEventArgs e)
         {
@@ -149,7 +152,7 @@ namespace AudioPlayerControl
             timer.Stop();
         }
 
-        private void BT_Click_Stop(object sender, RoutedEventArgs e)
+    /*    private void BT_Click_Stop(object sender, RoutedEventArgs e)
         {
             SliderDuration.Value = 0;
             mediaPlayer.Position = new TimeSpan(0, 0, 0);
@@ -158,13 +161,13 @@ namespace AudioPlayerControl
             timer.Stop();
             
         }
-
+*/
         private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
           //  ((Slider)sender).SelectionEnd = e.NewValue;
             mediaPlayer.SpeedRatio = e.NewValue;
         }
-
+/*
         private void SliderVolume_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             if (mediaPlayer != null)
@@ -173,8 +176,8 @@ namespace AudioPlayerControl
             }
            
         }
-
-        private void SliderDuration_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+*/
+  /*      private void SliderDuration_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             if (btloop.IsPressed)
             {
@@ -185,7 +188,7 @@ namespace AudioPlayerControl
                     // btloop.IsEnabled = false;
                 }
             }
-        }
+        }*/
 
       private void BT_Click_loop (object sender, RoutedEventArgs e)
         {
